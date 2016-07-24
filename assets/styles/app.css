@@ -7781,11 +7781,11 @@ button.swiper-pagination-bullet {
 
 .header.fixed nav {
     background: #fff;
-    opacity: .8
+    opacity: .96
 }
 
 .header.fixed nav:hover {
-    opacity: .96
+    opacity: .98
 }
 
 .header.fixed nav .button-collapse i,
@@ -8130,12 +8130,13 @@ footer.page-footer h4 {
 }
 
 .platform .container {
-    padding: 6.4rem 0
+    padding: 6.4rem 0;
+    padding-top: 0px; /* custom */
 }
 
 .platform .section-title {
-    font-size: 10.5rem;
-    color: #42a5f5;
+    font-size: 6rem;
+    color: rgb(0,150,220);
     text-align: center
 }
 
@@ -8165,13 +8166,17 @@ footer.page-footer h4 {
 }
 
 .platform-card__title {
+    font-family: 'Roboto';
+    font-weight: 600;
     margin-bottom: 20px;
     font-size: 1.5rem;
     text-align: center
 }
 
 .platform-card__desc {
-    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.25rem;
     text-align: center
 }
 
@@ -8187,12 +8192,16 @@ footer.page-footer h4 {
 
 .features {
     background-color: #fff;
-    padding: 80px 0
+    padding: 80px 0;
+    /* custom */
+    padding-top: 10px; 
+    border-top: 1px solid rgba(0,0,0, .25);
+    border-bottom: 1px solid rgba(0,0,0, .25);
 }
 
 .features .section-title {
-    font-size: 10.5rem;
-    color: #42a5f5;
+    font-size: 6rem;
+    color: rgb(0,150,220);
     text-align: center
 }
 
@@ -8201,8 +8210,10 @@ footer.page-footer h4 {
 }
 
 .features__text {
+    font-family: 'Roboto';
     font-weight: 300;
-    font-size: 22px
+    font-size: 22px;
+    text-align: justify;
 }
 
 .features__cards {
@@ -8238,12 +8249,14 @@ footer.page-footer h4 {
 .partners {
     margin-top: 3rem;
     padding: 1rem 0 3rem;
-    background: #fff
+    background: #fff;
+    border-top: 1px solid rgba(0,0,0, .25);
+    border-bottom: 1px solid rgba(0,0,0, .25);
 }
 
-.partners .section-title {
-    font-size: 4.1rem;
-    color: #42a5f5;
+.partners .section-title { /* Waves Partners title */
+    font-size: 6rem;
+    color: #555555;
     text-align: center
 }
 
@@ -8251,7 +8264,7 @@ footer.page-footer h4 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .partners__item {
@@ -8275,12 +8288,14 @@ footer.page-footer h4 {
 
 .recent-news .section-title {
     color: #000;
-    font-size: 8.5rem;
+    color: #555; /* custom */
+    font-size: 6rem;
     text-align: center
 }
 
 .recent-news .section-title__light {
-    color: #d5d5d5
+    color: #d5d5d5;
+    color: rgb(0,150,220); /* custom */
 }
 
 .recent-news__news {
@@ -8350,11 +8365,13 @@ footer.page-footer h4 {
 .team .section-title {
     text-align: center;
     color: #000;
-    font-size: 8.5rem
+    color: #555; /* custom */
+    font-size: 6rem
 }
 
 .team .section-title__light {
-    color: #d5d5d5
+    color: #d5d5d5;
+    color: rgb(0,150,220); /* custom */
 }
 
 .team__carousel {
@@ -9509,3 +9526,6 @@ nav ul li a {
     .menu-socials { display: none; }
 }
 
+.dl-but {
+    width: 255px;
+}
