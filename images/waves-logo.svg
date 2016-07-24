@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Creator: CorelDRAW X7 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="213px" height="22px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 2130 218"
- xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <style type="text/css">
-   <![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" width="213" height="22" viewBox="0 0 2130 218" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><defs><style><![CDATA[
     .fil0 {fill:url(#id0)}
-   ]]>
-  </style>
-  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="-0" y1="108.945" x2="2130" y2="108.945">
-   <stop offset="0" style="stop-opacity:1; stop-color:#5CC6D0"/>
-   <stop offset="1" style="stop-opacity:1; stop-color:#0098DA"/>
-  </linearGradient>
- </defs>
- <g id="Layer_x0020_1">
-  <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M872 174c12,0 21,10 21,21 0,12 -9,21 -21,21 -11,0 -21,-9 -21,-21 0,-11 10,-21 21,-21zm510 -138l180 0c38,0 71,-12 99,-36l-99 0 -56 0 -124 0 -4 0 -25 0c-35,0 -66,11 -93,31 -49,38 -99,91 -144,134 -18,17 -46,17 -64,0l-120 -111c-34,-31 -85,-31 -118,0l-121 111c-18,17 -45,17 -63,0l-121 -111c-33,-31 -84,-31 -117,0l-121 111c-18,17 -45,17 -63,0l-179 -165 -29 28 0 0 181 167c33,30 84,30 117,0l121 -112c18,-17 45,-17 63,0l121 112c33,30 84,30 117,0l121 -112c18,-17 46,-17 63,0l121 112c33,30 85,31 118,0 44,-42 85,-84 126,-125 2,-2 4,-4 7,-6 22,-19 48,-28 77,-28l25 0 4 0zm87 51c12,0 21,10 21,21 0,12 -9,21 -21,21 -11,0 -20,-9 -20,-21 0,-11 9,-21 20,-21zm-116 128l57 0 297 0 0 -36 -354 0c-37,0 -70,12 -98,36l98 0zm354 -36l356 0c18,0 31,-14 31,-31l0 -1c0,-17 -13,-31 -31,-31l-301 0c-30,0 -54,-24 -54,-53l0 -8c0,-29 24,-53 54,-53l231 0 0 36 -231 0c-10,0 -18,8 -18,17l0 8c0,10 8,18 18,18l301 0c37,0 67,30 67,66l0 1c0,37 -30,67 -67,67l-356 0 0 -36z"/>
- </g>
-</svg>
+   ]]></style><linearGradient id="id0" gradientUnits="userSpaceOnUse" y1="108.945" x2="2130" y2="108.945"><stop offset="0" stop-color="#5CC6D0"/><stop offset="1" stop-color="#0098DA"/></linearGradient></defs><path class="fil0" d="M872 174c12 0 21 10 21 21 0 12-9 21-21 21-11 0-21-9-21-21 0-11 10-21 21-21zm510-138h180c38 0 71-12 99-36h-308c-35 0-66 11-93 31-49 38-99 91-144 134-18 17-46 17-64 0L932 54c-34-31-85-31-118 0L693 165c-18 17-45 17-63 0L509 54c-33-31-84-31-117 0L271 165c-18 17-45 17-63 0L29 0 0 28l181 167c33 30 84 30 117 0L419 83c18-17 45-17 63 0l121 112c33 30 84 30 117 0L841 83c18-17 46-17 63 0l121 112c33 30 85 31 118 0 44-42 85-84 126-125 2-2 4-4 7-6 22-19 48-28 77-28h29zm87 51c12 0 21 10 21 21 0 12-9 21-21 21-11 0-20-9-20-21 0-11 9-21 20-21zm-116 128h354v-36h-354c-37 0-70 12-98 36h98zm354-36h356c18 0 31-14 31-31v-1c0-17-13-31-31-31h-301c-30 0-54-24-54-53v-8c0-29 24-53 54-53h231v36h-231c-10 0-18 8-18 17v8c0 10 8 18 18 18h301c37 0 67 30 67 66v1c0 37-30 67-67 67h-356v-36z" id="Layer_x0020_1"/></svg>
