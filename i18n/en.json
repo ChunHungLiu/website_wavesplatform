@@ -1,0 +1,123 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dizzy"
+		],
+		"last-updated": "2016-07-11",
+		"locale": "en"
+	},
+
+	"section-intro": "Intro",
+	"section-platfom": "Platfom",
+	"section-features": "Features",
+	"section-news": "News",
+	"section-team": "Team",
+	"section-partners": "Partners",
+	"section-stay-tuned": "Stay tuned",
+
+	"banner-title": "Decentralized platform that uses custom blockchain tokens to represent value",
+	"banner-desc": "Tokens can be issued by any platform user, ​and can be transferred, swapped, and traded ​ on​ an integrated decentralized exchange.",
+	"watch": "Watch",
+	"video": "Video",
+	"download-now": "Download Now",
+	"download-from": "Download from",
+	"banner-interview-quote": "Keep tuned for news and announcements on our social media channels!",
+	"banner-watch-interview": "Watch Interview",
+
+	"platform-title": "Waves Platform",
+
+	"platform-card-1-title": "Mass Market adoption",
+	"platform-card-1-content": "The goal of the WAVES platform is to create an environment in which users of traditional online financial platforms will feel comfortable",
+	"platform-card-2-title": "Decentralized Financial instruments",
+	"platform-card-2-content": "WAVES platform focuses on providing the ultimate solution which covers most aspects of blockchain tokens usage",
+	"platform-card-3-title": "Decentralized trading",
+	"platform-card-3-content": "WAVES will support fully decentralized asset trading and decentralized order books, supporting cross-token, asset-to-asset trading",
+	"platform-card-4-title": "National currencies on the blockchain",
+	"platform-card-4-content": "WAVES combines the best of the both worlds: blockchain decentralization and verification procedures needed to effectively fight money laundering and financial crime",
+	"platform-card-5-title": "Decentralized crowdfunding",
+	"platform-card-5-content": "Fund raising, project participants compensation, community management and communication: all can be managed on WAVES",
+	"platform-card-6-title": "Community management",
+	"platform-card-6-content": "A decentralized reputation system that parallels traditional centralized vetting services will be provided after the WAVES platform launch.",
+
+
+	"features-title": "About Waves",
+	"features-desc": "WAVES is a decentralized platform ​that uses custom blockchain tokens to represent value. Tokens can be issued by any platform user, ​and can be transferred, swapped, and traded ​on​ an integrated decentralized exchange. Tokens may represent a share in a crowdfunding project, financial instrument, ​or any other ​item​ with inherent value. Traditional centralized crowdfunding and trading platforms rely on a ​third​ party ​to maintain​ the platform, thus ​sacrificing​ transparency and becoming prone to failures due to over-centralization.",
+	"features-subtitle": "Waves Features",
+	"features-text": "Blockchain technology allows ​the elimination of any centralized point of failure, storing all the platform data on all system nodes in a distributed fashion. It makes fully decentralized trading, crowdfunding and value transfer possible.",
+
+	"features-card-1": "Decentralized trading",
+	"features-card-2": "Decentralized financial instruments",
+	"features-card-3": "Decentralized crowdfunding and community management",
+	"features-card-4": "National currencies on the blockchain",
+	"features-card-5": "Massmarket adoption",
+
+	"developers": "Developers",
+	"explorer": "Explorer",
+	"download": "Download",
+	"release": "Release",
+	"social": "Social",
+	"events": "Events",
+
+
+	"news-title": "<span class=\"section-title__light\">Our</span> Team",
+
+	"news-card-1-title": "WAVES Blockchain-powered Platform Announces Partnership with Mycelium and CORE Media",
+	"news-card-1-content": "Waves has partnered with one of the leading Bitcoin wallet providers Mycelium and CORE Media is pleased to announce that we are now an official partner of the Waves platform!",
+	"news-card-2-title": "WAVES Blockchain-powered Platform Announces Partnership",
+	"news-card-2-content": "Waves has partnered with one of the leading Bitcoin wallet providers Mycelium and CORE Media is pleased to announce that we are now an official partner of the Waves platform!",
+	"news-card-3-title": "WAVES Blockchain-powered Platform Announces Partnership with Mycelium and CORE Media",
+	"news-card-3-content": "Waves has partnered with one of the leading Bitcoin wallet providers Mycelium and CORE Media is pleased to announce that we are now an official partner of the Waves platform!",
+	"news-card-4-title": "WAVES Blockchain-powered Platform Announces Partnership with Mycelium and CORE Media",
+	"news-card-4-content": "Waves has partnered with one of the leading Bitcoin wallet providers Mycelium and CORE Media is pleased to announce that we are now an official partner of the Waves platform!",
+
+	"subscribe-to-news": "Subscribe to <span class=\"button-subscribe__button__em\">news</span>",
+
+
+
+	"talents-title": "We search Talent!",
+	"talents-desc": "If you are a developer with experience in blockchain applications <br>contact us with your resume, we are always looking for sharp minds! <br>Join to Waves Team - Apply to Waves Team now!",
+	"join-to": "Join to",
+
+	"team-title": "<span class=\"section-title__light\">Our</span> Team",
+
+	"team-sasha-ivanov": "Sasha Ivanov",
+	"team-sasha-ivanov-role": "Founder and CEO of Waves project",
+	"team-sasha-ivanov-about": "Physicist by education, Sasha Ivanov was involved in Internet payment systems software development and neural network prediction software for financial markets.  After the emergence of blockchain technology he launched the first instant cryptocurrency exchange coinomat.com, the first fiat blockchain token coinousd, and the first tradable cryptocurrency index coinoindex.com",
+	"team-tobias-schwarz": "Tobias Schwarz",
+	"team-tobias-schwarz-role": "Blockchain developer",
+	"team-tobias-schwarz-about": "Tobias is currently finishing a Masters program in sociology at Berlin university. Experienced front-end developer, he was involved in the development of the lite wallet client for Supernet, collaborating with Supernet project leader Jl777.  Tobias was active in projects based on NXT cryptocurrency, having developed various plug-ins, and maintaining mynxt.info website.",
+	"team-guy-brandon": "Guy Brandon",
+	"team-guy-brandon-role": "Director of communications",
+	"team-guy-brandon-about": "Guy Brandon is a UK-based writer and communicator who has been active in cryptocurrency since early 2014. He is Editorial Director for BitScan.com, the largest crypto directory and marketplace in the world, and specialises in making complex ideas accessible to mainstream audiences. Amongst many other clients and projects, he has created film scripts for banking and computer security companies, as well as contributing to white papers and marketing materials for software agencies.",
+	"team-ivan-shcheglov": "Ivan Shcheglov",
+	"team-ivan-shcheglov-role": "Integration Strategist",
+	"team-ivan-shcheglov-about": "After graduating from Moscow State Institute of Electronic Engineering, he moved to London in 2000 where he worked as an IT consultant for the number of leading investment banks including JP Morgan, Barclays, Deutsche Bank, Nomura focusing on the trading and market risk areas. He also holds master degrees in Business Analysis and Design from CASS in London and Mathematical Trading and Finance from CASS Business School London. His technical expertise in Java area is combined with the broad range of skills in finance and banking.",
+	"team-karl-karlsson": "Karl Karlsson",
+	"team-karl-karlsson-role": "Community Manager",
+	"team-karl-karlsson-about": "Cyril (also known as KarlKarlsson) has been a long-time Nxt community member and founded NXTinfo.org with a friend of him after having contributed to NXTER.org for several months. Cyril found his passion for digital currencies during the time he worked for a big swiss financial institution. Currently, he is an undergraduate in the Bachelor's degree in International Management. Within the team his responsibilities lie in community management, translations and marketing of the WAVES platform.",
+
+	"Waves Commutity": "Waves Commutity",
+	"What is Waves?": "What is Waves?",
+	"Read our FAQ": "Read our FAQ",
+	"Source code on GitHub": "Source code on GitHub",
+	"Read the Waves": "Read the Waves",
+	"Documentation": "Documentation",
+	"See latest data": "See latest data",
+	"Network Stats": "Network Stats",
+	"Download our Logo assets": "Download our Logo assets",
+	"Want to write about us? Press inquiries": "Want to write about us? Press inquiries",
+	"Back to top": "Back to top",
+	"Brought to you by": "Brought to you by",
+	"Waves Team": "Waves Team",
+	"Terms": "Terms",
+	"License": "License",
+	"Contact info": "Contact info",
+
+	"footer-events-desc": "This week, we covered the news on the asset and custom token blockchain platform Waves raising $16 million with its ICO.",
+
+	"subscribe-form-title": "Subscribe",
+	"join-form-title": "Join us",
+	"name": "Name",
+	"email": "Email",
+	"submit": "Submit"
+}
