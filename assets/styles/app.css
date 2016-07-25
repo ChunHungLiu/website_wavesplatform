@@ -7928,7 +7928,7 @@ footer.page-footer h4 {
     background: url(../../images/slide.jpg) no-repeat 50%;
     background-size: cover;
     color: #fff;
-    text-align: center
+    text-align: center;
 }
 
 .banner .container {
@@ -7939,7 +7939,7 @@ footer.page-footer h4 {
     -ms-flex-align: center;
     align-items: center;
     position: relative;
-    padding-bottom: 25rem
+    padding-bottom: 20rem
 }
 
 .banner__title {
@@ -7955,7 +7955,9 @@ footer.page-footer h4 {
 .banner-watch-video {
     -ms-flex-item-align: stretch;
     align-self: stretch;
-    margin-top: 5.7rem
+    margin-top: 4rem;
+    
+
 }
 
 .banner-watch-video,
@@ -8085,7 +8087,7 @@ footer.page-footer h4 {
 .banner-interview {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 20px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -8096,7 +8098,7 @@ footer.page-footer h4 {
 
 .banner-interview__text {
     width: 16rem;
-    padding-right: 2rem;
+/*    padding-right: 1rem;*/
     text-align: left
 }
 
@@ -9099,6 +9101,7 @@ footer.page-footer h4 {
     .footer .stay-tuned__title {
         font-size: 6rem
     }
+/*
     .banner-downloads__title {
         text-align: center
     }
@@ -9106,6 +9109,30 @@ footer.page-footer h4 {
         position: static;
         margin-top: 6rem
     }
+*/
+    .banner-downloads {
+     display: none;   
+    }
+    .banner .container {
+        padding-bottom: 5rem
+    }
+    .banner-interview {
+        position: static;
+        display: block;
+        margin-top: 4rem;
+        text-align: center
+    }
+    .banner-interview__text {
+        width: auto;
+        max-width: 16rem;
+        padding-right: 0;
+        text-align: center
+    }
+    .banner-interview__img {
+        display: none
+    }
+    
+    
     .platform .section-title {
         font-size: 8rem
     }
@@ -9296,6 +9323,7 @@ footer.page-footer h4 {
         -ms-flex: 1 0 100%;
         flex: 1 0 100%
     }
+/*
     .banner .container {
         padding-bottom: 5rem
     }
@@ -9329,6 +9357,7 @@ footer.page-footer h4 {
     .banner-interview__img {
         display: none
     }
+*/
     .platform .container {
         padding: 0
     }
@@ -9572,6 +9601,12 @@ nav ul li a {
     .menu-socials { display: none; }
 }
 
+.interview_icon_img {
+    width: 200px;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+
 .dl-but {
     width: 255px;
     opacity: .85;
@@ -9658,3 +9693,4 @@ nav ul li a {
 #talents h1 {
     font-size: 3rem;
 }
+
