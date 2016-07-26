@@ -53,10 +53,10 @@
 	"features-card-4": "Automatic dividends distribution",
 	"features-card-5": "Portfolio management",
 
-	"developers": "Developers",
-	"explorer": "Explorer",
+	"testnet": "TestNET Wallet",
+	"explorer": "Block Explorer",
 	"download": "Download our Lite Client",
-	"release": "Release",
+	"testnetexplorer": "TestNET Explorer",
 	"social": "Social",
 	"events": "Events",
 
@@ -106,7 +106,7 @@
 	"Documentation": "Documentation",
 	"See latest data": "See latest data",
 	"Network Stats": "Network Stats",
-	"Download our Logo assets": "Download our Branding Packs",
+	"Download our Logo assets": "Download our Branding Pack",
 	"Want to write about us? Press inquiries": "Want to write about us? Press inquiries",
 	"Back to top": "Back to top",
 	"Brought to you by": "Brought to you by the WAVES team",
