@@ -7925,7 +7925,7 @@ footer.page-footer h4 {
     min-height: 100vh;
     margin-top: -40px;
     padding-top: 8.5rem;
-    background: url(../../images/slide.jpg) no-repeat 50%;
+    background: url(../../images/slide2.jpg) no-repeat 50%;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -8370,7 +8370,7 @@ footer.page-footer h4 {
 }
 
 .recent-news .button-subscribe__button {
-    margin: 0 0 50px 0;
+    margin: 0;
     background-color: transparent;
     box-shadow: none;
     border: 1px solid #555;
@@ -8398,7 +8398,7 @@ footer.page-footer h4 {
     opacity: .4;
     background: #a0cbe7;
     background: rgba(0,0,0, .35);
-    margin: 0 0 50px 0;
+    margin: 0;
 }
 
 .recent-news__tweets {
@@ -9701,4 +9701,13 @@ nav ul li a {
 .footer__commutity { text-align: right; }
 @media only screen and (max-width: 600px) {
     .footer__commutity { text-align: center; }
+}
+
+#features {
+    padding-bottom: 3rem;
+}
+
+#features .stay-tuned {
+    margin-top: 4rem;
+    margin-bottom: 0px;
 }
