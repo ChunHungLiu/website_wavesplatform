@@ -8171,7 +8171,8 @@ footer.page-footer h4 {
 .platform-card__title {
     font-family: 'Roboto';
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-size: 1.5rem;
     text-align: center
 }
@@ -8187,11 +8188,13 @@ footer.page-footer h4 {
     position: absolute
 }
 
+/*
 .platform-card--card-1 {
     background-image: url(../../images/waves-card-bg.png);
     background-repeat: no-repeat;
     background-position: 100% 100%
 }
+*/
 
 .features {
     background-color: #fff;
@@ -8217,6 +8220,7 @@ footer.page-footer h4 {
     font-weight: 300;
     font-size: 22px;
     text-align: justify;
+    line-height: 2.75rem;
 }
 
 .features__cards {
@@ -9694,3 +9698,7 @@ nav ul li a {
     font-size: 3rem;
 }
 
+.footer__commutity { text-align: right; }
+@media only screen and (max-width: 600px) {
+    .footer__commutity { text-align: center; }
+}
