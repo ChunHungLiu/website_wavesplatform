@@ -9373,11 +9373,17 @@ footer.page-footer h4 {
         font-size: 3rem
     }
     .features__text {
-        text-align: justify
+        text-align: justify;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
     }
     .features-card,
     .partners__item {
         width: 45%
+    }
+    .features-card:last-child {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
     .recent-news .section-title {
         font-size: 4rem
