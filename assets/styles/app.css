@@ -9664,6 +9664,22 @@ nav ul li a {
     -o-filter:      grayscale(0%);
 }
 
+@media only screen and (max-width:728px) {
+    .team__slide img {
+        -webkit-filter: grayscale(0%);
+        -moz-filter:    grayscale(0%);
+        -ms-filter:     grayscale(0%);
+        -o-filter:      grayscale(0%);
+    }
+    .banner__logo {
+        width: 12rem;
+        margin-top: -2rem;
+    }
+    .banner__title {
+        margin-top: 2rem;
+    }
+}
+
 .section-title-part {
     display: inline;
 }
