@@ -9670,6 +9670,7 @@ nav ul li a {
 
 .section-title {
     color: rgb(0,150,220) !important;
+    font-family: Roboto;
     font-size: 6rem;
     font-weight: 600;
     text-align: center;
@@ -9722,14 +9723,14 @@ nav ul li a {
     margin-bottom: 0px;
 }
 
-.team-member-modal__name { /* Bio */
+.team-member-modal__name {
     font-size: 2.5rem;
     font-family: 'Roboto';
     font-weight: 200;
     color: #555;
 }
 
-.team-member-modal__about { /* Bio */
+.team-member-modal__about {
     font-size: 1.25rem;
     font-family: 'Roboto';
     font-weight: 200;
@@ -9756,3 +9757,4 @@ nav ul li a {
     margin-top: -.5rem;
     margin-bottom: .5rem;
 }
+
