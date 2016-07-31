@@ -8456,10 +8456,11 @@ footer.page-footer h4 {
 }
 
 .team__slide__name {
+    font-family: 'Roboto';
     margin: .5rem 0;
-    line-height: 1;
+    line-height: 3.25rem;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 200;
 }
 
 .team__slide__role {
@@ -9598,6 +9599,9 @@ only screen and (min-device-pixel-ratio:1.5) {
     }
 }
 
+
+
+
 /* CUSTOM */
 
 nav ul li a {
@@ -9749,7 +9753,7 @@ nav ul li a {
     padding-top: 0px;
 }
 
-.bio-divider {
+.bio-divider, .bio-divider-2 {
     height: 1px;
     width: 100%;
     background: #0096DC;
@@ -9757,4 +9761,10 @@ nav ul li a {
     margin-top: -.5rem;
     margin-bottom: .5rem;
 }
+
+.bio-divider-2 { 
+    margin-top: 0rem;
+    width: 80%;
+}
+
 
