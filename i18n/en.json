@@ -55,7 +55,8 @@
 
 	"testnet": "TestNET Wallet",
 	"explorer": "Block Explorer",
-	"download": "Download the Whitepaper",
+	"download-client": "Download our Lite Client",
+    "download-whitepaper": "Download the Whitepaper",
 	"testnetexplorer": "TestNET Explorer",
 	"social": "Social",
 	"events": "Events",
