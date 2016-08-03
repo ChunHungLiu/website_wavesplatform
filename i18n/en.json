@@ -58,7 +58,7 @@
 	"download-client": "Download our Lite Client",
     "download-whitepaper": "Download the Whitepaper",
 	"testnetexplorer": "TestNET Explorer",
-	"social": "Social",
+	"Social": "<span class=\"footer-title\">Social</span>",
 	"events": "Events",
 
 
@@ -120,7 +120,7 @@
 	"team-yura-role": "<hr class=\"bio-divider-2\">Back-end Developer",
 	"team-yura-about": "<hr class=\"bio-divider\">Lore Ipsum here.",
 
-	"Waves Community": "Waves Community",
+	"Waves Community": "<span class=\"footer-title\">Waves Community</span>",
 	"What is Waves?": "What is Waves?",
 	"Read our FAQ": "Read our FAQ",
 	"Source code on GitHub": "Source code on GitHub",
