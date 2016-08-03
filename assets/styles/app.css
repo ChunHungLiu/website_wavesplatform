@@ -9765,7 +9765,7 @@ nav ul li a {
 
 
 .talents .container .section-title__light {
-    margin-top: -40px;
+    margin-top: -20px;
     padding-top: 0px;
 }
 
@@ -9788,4 +9788,23 @@ nav ul li a {
     font-weight: 400;
 }
 
+/* Temporary classes till we fix the RSS feeds */
 
+.l3 {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin: 0 auto;
+}
+
+.recent-news__tweets {
+    width: 100%;
+}
+
+#news .container .row {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .stay-tuned { padding-bottom: 2rem;  }
+}

@@ -9,7 +9,6 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
         
-        
         <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
@@ -19,7 +18,8 @@
         
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 		<link href="assets/styles/app.css?t=1469265358402" rel="stylesheet">
-		<script src="https://use.typekit.net/yhp6ylu.js"></script>
+        <link href="assets/styles/FeedEK.css" rel="stylesheet">
+        <script src="https://use.typekit.net/yhp6ylu.js"></script>
 		<script>
 			try{Typekit.load({async:!0})}catch(e){}
 		</script>
@@ -293,7 +293,9 @@
 				<div class="container">
                     <h1 data-i18n="news-title" class="section-title"></h1>
 					<div class="row">
-						<div class="recent-news__news col l9 m12">
+<!--						<div class="recent-news__news col l9 m12">-->
+                        <div class="recent-news__news">
+<!--
 							<div class="recent-news__news-card">
 								<div class="card">
 									<div class="card-image">
@@ -309,6 +311,8 @@
 									</div>
 								</div>
 							</div>
+-->
+<!--
 							<div class="recent-news__news-card">
 								<div class="card">
 									<div class="card-image">
@@ -324,6 +328,8 @@
 									</div>
 								</div>
 							</div>
+-->
+<!--
 							<div class="recent-news__news-card">
 								<div class="card">
 									<div class="card-image">
@@ -339,6 +345,8 @@
 									</div>
 								</div>
 							</div>
+-->
+<!--
 							<div class="recent-news__news-card">
 								<div class="card">
 									<div class="card-image">
@@ -355,17 +363,28 @@
 								</div>
 							</div>
 						</div>
+-->
+<!--
 						<div class="recent-news__tweets col l3 m12">
 							<a data-dnt="true" data-theme="light" data-link-color="#0098da" data-chrome="transparent" data-tweet-limit="3" href="https://twitter.com/wavesplatform"
 								class="twitter-timeline">Tweets by @wavesplatform</a>
 							<script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 						</div>
+-->
+                            
+                        <div class="recent-news__tweets">
+							<a data-dnt="true" data-theme="light" data-link-color="#0098da" data-chrome="transparent" data-tweet-limit="3" href="https://twitter.com/wavesplatform"
+								class="twitter-timeline">Tweets by @wavesplatform</a>
+							<script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
 					</div>
+<!--
 					<div class="button-subscribe">
 						<div class="button-subscribe__line"></div>
 						<a href="#subscribe-modal" data-i18n="subscribe-to-news" class="button-subscribe__button btn modal-trigger"></a>
 						<div class="button-subscribe__line"></div>
 					</div>
+-->
 				</div>
 			</div>
 			<div id="partners" class="partners">
@@ -717,6 +736,7 @@
 						<div class="col l6 m12">
 							<div class="row">
 								<div class="footer__block col l6 m6 s12">
+<!--
 									<div class="footer__events">
 										<h4 data-i18n="events" class="footer__events__title"></h4>
 										<a href="#" class="footer__events__img">
@@ -725,6 +745,10 @@
 										<div class="footer__events__date">16 Aug 2016</div>
 										<div class="footer__events__city">Taiwan</div>
 										<div data-i18n="footer-events-desc" class="footer__events__desc"></div>
+									</div>
+-->
+                                    <div class="footer__events">
+                                        <div id="WavesFeed2"></div>
 									</div>
 								</div>
 								<div class="footer__block col l6 m6 s12">
@@ -822,6 +846,14 @@
 			</div>
 		</div>
 		<script src="assets/scripts/app.min.js"></script>
+        <script src="assets/scripts/FeedEK.js"></script>
+        <script>
+            $('#WavesFeed2').FeedEk({
+                FeedUrl:'http://coremedia.info/index.php/waves-news?format=feed',
+                MaxCount : 1,
+                DescCharacterLimit:290
+            });
+        </script>
 	</body>
 
 </html>
