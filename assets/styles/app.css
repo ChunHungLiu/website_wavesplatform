@@ -8279,15 +8279,19 @@ footer.page-footer h4 {
 }
 
 .partners__item {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-self: center;
     min-width: 20%;
     padding: 2rem 3rem;
-    text-align: center
+    text-align: center;
 }
 
+/*
 .partners__item+.partners__item {
     border-left: 1px solid rgba(0, 0, 0, .15);
 }
+*/
 
 .partners__img {
     transition: transform .5s;
@@ -9835,4 +9839,7 @@ nav ul li a {
 
 @media only screen and (max-width: 1024px) { .swipe-img img { width: 55%;  } }
 
-@media only screen and (max-width: 600px) { .swipe-img img { width: 85%;  } }
+@media only screen and (max-width: 600px) { 
+    .swipe-img img { width: 85%; } 
+    .partners .section-title { margin-bottom: 3rem; }
+}
