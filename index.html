@@ -116,22 +116,22 @@
 						<ul id="lang-switcher" class="dropdown-content">
 							<li>
 								<a href="#" data-lang="en" class="active">
-									<img src="images/en.svg" />
+									<img src="images/en.png" />
 								</a>
 							</li>
                             <li>
                             	<a href="#" data-lang="ru">
-									<img src="images/ru.svg" />
+									<img src="images/ru.png" />
 								</a>
 							</li>
 							<li>
 								<a href="#" data-lang="ch">
-									<img src="images/ch.svg" />
+									<img src="images/ch.png" />
 								</a>
 							</li>
 							<li>
 								<a href="#" data-lang="de">
-									<img src="images/de.svg" />
+									<img src="images/de.png" />
 								</a>
 							</li>
 						</ul>
@@ -639,12 +639,16 @@
 			</div>
             
 			<div id="talents" class="talents">
-<!--                <img src="images/swipe_gesture4.svg" class="swipe-img" alt="swipe left or right"-->
 				<div class="container">
 					<h1 data-i18n="talents-title" class="section-title__light"></h1>
                     <div class='diwide'></div>
 					<div data-i18n="talents-desc" class="talents__text"></div>
+<!--
 					<a href="#join-modal" data-i18n="join-to" class="talents__button modal-trigger">
+						<span class="talents__button__company-name">WavesTeam</span>
+					</a>
+-->
+                    <a href="mailto:rideon@wavesplatform.com" data-i18n="join-to" class="talents__button modal-trigger">
 						<span class="talents__button__company-name">WavesTeam</span>
 					</a>
 				</div>
@@ -836,7 +840,7 @@
 		<div id="join-modal" class="modal">
 			<div class="modal-content">
 				<h4 data-i18n="join-form-title"></h4>
-				<form action="/join.php">
+				<form action="/subscribe.php">
 					<div class="input-field">
 						<input id="join-modal-name" type="text" class="validate" />
 						<label for="join-modal-name" data-i18n="name"></label>
@@ -846,7 +850,7 @@
 						<label for="join-modal-email" data-i18n="email"></label>
 					</div>
 					<div class="input-field center">
-						<button type="submit" data-i18n="submit" class="waves-effect waves-light btn"></button>
+						<button type="submit" data-i18n="join" class="waves-effect waves-light btn"></button>
 					</div>
 				</form>
 			</div>
