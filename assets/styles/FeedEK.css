@@ -25,6 +25,7 @@
 
 .itemTitle a {
     font-weight: bold;
+    font-size: 1.75rem;
     color: #fff !important;
     text-decoration: none;
 }
