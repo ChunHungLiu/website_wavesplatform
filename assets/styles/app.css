@@ -9813,3 +9813,26 @@ nav ul li a {
     font-weight: 600;
     font-size: 1.75rem;
 }
+
+.swipe-img {
+    width: 100%;
+    pointer-events: none;
+    z-index: -999;
+    text-align: center;
+    padding: .5rem;
+}
+
+.swipe-img img {
+    width: 30%;
+    opacity: .12;
+    z-index: -999;
+}
+
+.team__carousel, .swiper-container-horizontal, .swiper-slide-active {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 1024px) { .swipe-img img { width: 55%;  } }
+
+@media only screen and (max-width: 600px) { .swipe-img img { width: 75%;  } }
