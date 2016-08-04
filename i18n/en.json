@@ -118,7 +118,7 @@
 	"team-bere-about": "<hr class=\"bio-divider\">Sergey (@beregovoy68) is a Software Engineer specialized in Java with over 10 years of experience. His portfolio contains Finance and Banking projects related to Transaction Processing and Payments. His main responsibility on WAVES project is Lite Client development and Distributed Team Coordination. He is a big fan of agile methodologies which is why he implemented SCRUM into the Lite Client team.",
     "team-yura": "Yuri Petrov",
 	"team-yura-role": "<hr class=\"bio-divider-2\">Back-end Developer",
-	"team-yura-about": "<hr class=\"bio-divider\">Lore Ipsum here.",
+	"team-yura-about": "<hr class=\"bio-divider\">Yuri (@gagarin68) is a developer with more than 15 years of experience in the field and proficient in a number of programming languages. He has been involved in the development of bank applications and financial projects, and is known for having collaborated with Scorex project code numerous times.",
 
 	"Waves Community": "<span class=\"footer-title\">Waves Community</span>",
 	"What is Waves?": "What is Waves?",
@@ -136,8 +136,6 @@
 	"Terms": "Terms",
 	"License": "License",
 	"Contact info": "Contact us",
-
-	"footer-events-desc": "This week, we covered the news on the asset and custom token blockchain platform Waves raising $16 million with its ICO.",
 
 	"subscribe-form-title": "Subscribe",
 	"join-form-title": "Apply",
