@@ -110,28 +110,33 @@
 					</div>
 					<div class="lang-switcher">
 						<a href="#" data-activates="lang-switcher" class="lang-switcher__button dropdown-button">
-							<img src="images/en.svg" class="lang-switcher__img" alt="" role="presentation" />
+							<img src="images/flag-en.svg" class="lang-switcher__img" alt="" role="presentation" />
 							<i class="fa fa-caret-down"></i>
 						</a>
 						<ul id="lang-switcher" class="dropdown-content">
 							<li>
 								<a href="#" data-lang="en" class="active">
-									<img src="images/en.png" />
+									<img src="images/flag-en.svg" class="lang-flag" />
 								</a>
 							</li>
                             <li>
                             	<a href="#" data-lang="ru">
-									<img src="images/ru.png" />
+									<img src="images/flag-ru.svg" class="lang-flag" />
 								</a>
 							</li>
 							<li>
 								<a href="#" data-lang="ch">
-									<img src="images/ch.png" />
+									<img src="images/flag-chi.svg" class="lang-flag" />
 								</a>
 							</li>
 							<li>
 								<a href="#" data-lang="de">
-									<img src="images/de.png" />
+									<img src="images/flag-de.svg" class="lang-flag" />
+								</a>
+							</li>
+                            <li>
+								<a href="#" data-lang="es" class="active">
+									<img src="images/flag-spa.svg" class="lang-flag" />
 								</a>
 							</li>
 						</ul>
@@ -392,7 +397,7 @@
 					<h1 data-i18n="Waves-Partners" class="section-title"></h1>
 					<div class="partners__logos">
 						<div class="partners__item">
-							<a href="https://mycelium.com/" title="Mycelium" class="partners__link">
+							<a href="https://mycelium.com/" target="_blank" title="Mycelium" class="partners__link">
 								<img src="images/mycelium-logo.svg" alt="" class="partners__img" role="presentation" />
 							</a>
 						</div>
@@ -518,6 +523,17 @@
 								<a href="https://wavesplatform.slack.com/team/waves.eth" target="_blank" class="team__slide__icon fa fa-slack"></a>
 							</div>
 						</div>
+                        <div data-target="team-member-modal-12" class="team__slide swiper-slide modal-trigger">
+							<img src="images/faces/yura2.jpg" />
+							<div data-i18n="team-yura" class="team__slide__name"></div>
+							<div data-i18n="team-yura-role" class="team__slide__role"></div>
+							<div class="team__slide__icons">
+<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
+<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-reddit"></a>-->
+								<a href="https://wavesplatform.slack.com/team/gagarin55" target="_blank" class="team__slide__icon fa fa-slack"></a>
+							</div>
+						</div>
                         <div data-target="team-member-modal-9" class="team__slide swiper-slide modal-trigger">
 							<img src="images/faces/alex2.jpg" />
 							<div data-i18n="team-alex" class="team__slide__name"></div>
@@ -549,17 +565,6 @@
 <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
 								<a href="https://ua.linkedin.com/in/sergeyishchenko" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
 								<a href="https://wavesplatform.slack.com/team/beregovoy68" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-                        <div data-target="team-member-modal-12" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/yura2.jpg" />
-							<div data-i18n="team-yura" class="team__slide__name"></div>
-							<div data-i18n="team-yura-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-reddit"></a>-->
-								<a href="https://wavesplatform.slack.com/team/gagarin55" target="_blank" class="team__slide__icon fa fa-slack"></a>
 							</div>
 						</div>
 					</div>
@@ -864,6 +869,37 @@
                 DescCharacterLimit:290
             });
         </script>
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '239372783081182');
+            fbq('track', "PageView");
+        </script>
+        <noscript>
+            <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=239372783081182&ev=PageView&noscript=1"
+            />
+        </noscript>
+        <!-- End of Facebook Pixel Code -->   
+        <!-- VK Pixel Code -->
+            <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=vN0qTK9zBbsSOec8swAc4lahuJlF*e98U8Efa9FsqmQ0mHFUY1H4x9GmySlz*ryvnnjp1e0qR5OfqDjUw1tQ26VQGL1PqL4L2TFwcAc8zTkHYpIWKOwld59LdS91T0SYyXgITR*gBRMZoMLCp/TVKhanzkQ4i0SbXMOXR8ZkC6Q-';</script> 
+        <!-- End of VK Pixel Code -->    
+        <!-- Twitter universal website tag code -->
+        <script>
+            !function(e,n,u,a){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):
+            a.queue.push(arguments);},a.version='1',a.queue=[],t=n.createElement(u),
+            t.async=!0,t.src='//static.ads-twitter.com/uwt.js',s=n.getElementsByTagName(u)[0],
+            s.parentNode.insertBefore(t,s))}(window,document,'script');
+            // Insert Twitter Pixel ID and Standard Event data below
+            twq('init','nuq4k');
+            twq('track','PageView');
+        </script>
+        <!-- End Twitter universal website tag code -->
 	</body>
 
 </html>

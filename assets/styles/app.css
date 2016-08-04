@@ -9843,3 +9843,8 @@ nav ul li a {
     .swipe-img img { width: 85%; } 
     .partners .section-title { margin-bottom: 3rem; }
 }
+
+.lang-flag {
+    width: 100%;
+    padding: .5rem;
+}
