@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.18in" height="0.126665in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 348 245"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil0 {fill:#00247D}
+    .fil2 {fill:red}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M26 0l297 0c14,0 25,12 25,26l0 193c0,15 -11,26 -25,26l-297 0c-14,0 -26,-11 -26,-26l0 -193c0,-14 12,-26 26,-26z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <rect class="fil0" x="-14" y="-5" width="381" height="260"/>
+    <rect class="fil1" x="131" y="-19" width="90.7286" height="289.835"/>
+    <rect class="fil1" transform="matrix(3.47905E-014 -1 1.31361 2.64845E-014 -13.732 170.933)" width="90.7286" height="289.835"/>
+    <rect class="fil1" transform="matrix(-0.274156 -0.474851 1.24754 -0.720269 8.27841 251.486)" width="90.7286" height="289.835"/>
+    <rect class="fil1" transform="matrix(0.274156 -0.474851 -1.24754 -0.720269 344.973 251.486)" width="90.7286" height="289.835"/>
+    <rect class="fil2" transform="matrix(0.107033 -0.185386 2.37438 1.37085 -172.326 -69.3142)" width="90.7286" height="289.835"/>
+    <rect class="fil2" transform="matrix(-0.107033 -0.185386 -2.37438 1.37085 525.563 -69.3142)" width="90.7286" height="289.835"/>
+    <rect class="fil1" x="48" y="80" width="256.64" height="90.7286"/>
+    <rect class="fil2" transform="matrix(3.47905E-014 -0.5 1.31361 1.32423E-014 -13.7472 148.247)" width="90.7286" height="289.835"/>
+    <rect class="fil2" x="154" y="-65" width="45.3643" height="380.731"/>
+   </g>
+  </g>
+  <path class="fil3" d="M26 0l297 0c14,0 25,12 25,26l0 193c0,15 -11,26 -25,26l-297 0c-14,0 -26,-11 -26,-26l0 -193c0,-14 12,-26 26,-26z"/>
+ </g>
+</svg>
