@@ -5871,7 +5871,7 @@ input[type=range]:focus::-ms-fill-upper {
     height: 120vh;
     background-color: rgba(0, 0, 0, .5);
     z-index: 997;
-    will-change: opacity
+    will-change: opacity;
 }
 
 .preloader-wrapper {
@@ -8343,6 +8343,31 @@ footer.page-footer h4 {
     font-weight: 400;
 }
 
+.WavesNews {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.WavesFeed1-cont {
+    display: block;
+    flex: 1 0 80%;
+}
+
+#WavesFeed1 {
+    width: 100%;
+}
+
+.feedEkList { 
+    width: 200% !important;
+}
+
+.feedEkList li  {
+    width: 50%;
+    display: inline-block;
+}
+
+/*
 .recent-news__news {
     display: -ms-flexbox;
     display: flex;
@@ -8351,7 +8376,9 @@ footer.page-footer h4 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap
 }
+*/
 
+/*
 .recent-news__news-card {
     width: 50%;
     padding-right: 4rem
@@ -8367,6 +8394,7 @@ footer.page-footer h4 {
     font-size: 1.8rem;
     line-height: 1.2
 }
+*/
 
 .recent-news .button-subscribe {
     display: -ms-flexbox;
@@ -9773,7 +9801,7 @@ nav ul li a {
     padding-top: 0px;
 }
 
-.bio-divider, .bio-divider-2 {
+.bio-divider, .bio-divider-2, .bio-divider-3 {
     height: 1px;
     width: 100%;
     background: #0096DC;
@@ -9782,6 +9810,15 @@ nav ul li a {
     margin-bottom: .5rem;
 }
 
+.bio-divider-3 {
+    height: 1px;
+    width: 100%;
+    background: #000;
+    background: rgba(0,0,0, .1);
+    margin: 0px;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+}
 .bio-divider-2 { 
     margin-top: 0rem;
     width: 80%;
@@ -9792,22 +9829,6 @@ nav ul li a {
     font-weight: 400;
 }
 
-/* Temporary classes till we fix the RSS feeds */
-
-.l3 {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin: 0 auto;
-}
-
-.recent-news__tweets {
-    width: 100%;
-}
-
-#news .container .row {
-    text-align: center;
-}
 
 @media only screen and (max-width: 1024px) {
     .stay-tuned { padding-bottom: 2rem;  }
@@ -9837,14 +9858,22 @@ nav ul li a {
     padding-bottom: 0px;
 }
 
-@media only screen and (max-width: 1024px) { .swipe-img img { width: 55%;  } }
+@media only screen and (max-width: 1024px) { 
+    .swipe-img img { width: 55%;  } 
+    .WavesNews { flex-direction: column; }
+    .feedEkList li  { width: 100%; }
+    .medium-feed-image { width: 75%; } 
+}
 
 @media only screen and (max-width: 600px) { 
     .swipe-img img { width: 85%; } 
     .partners .section-title { margin-bottom: 3rem; }
+    .medium-feed-image { width: 100%; } 
+    .features__text { padding-left: 1rem; padding-right: 1rem;}
 }
 
 .lang-flag {
     width: 100%;
     padding: .5rem;
 }
+
