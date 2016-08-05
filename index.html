@@ -19,10 +19,12 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 		<link href="assets/styles/app.css?t=1469265358402" rel="stylesheet">
         <link href="assets/styles/FeedEK.css" rel="stylesheet">
-        <script src="https://use.typekit.net/yhp6ylu.js"></script>
+<!--        <script src="https://use.typekit.net/yhp6ylu.js"></script>-->
+<!--
 		<script>
 			try{Typekit.load({async:!0})}catch(e){}
 		</script>
+-->
 	</head>
 
 	<body class="page">
@@ -297,9 +299,10 @@
 			<div id="news" class="recent-news">
 				<div class="container">
                     <h1 data-i18n="news-title" class="section-title"></h1>
-					<div class="row">
+<!--					<div class="row">-->
+                    <div class="WavesNews">
 <!--						<div class="recent-news__news col l9 m12">-->
-                        <div class="recent-news__news">
+<!--                        <div class="recent-news__news">-->
 <!--
 							<div class="recent-news__news-card">
 								<div class="card">
@@ -367,29 +370,24 @@
 									</div>
 								</div>
 							</div>
-						</div>
--->
-<!--
-						<div class="recent-news__tweets col l3 m12">
-							<a data-dnt="true" data-theme="light" data-link-color="#0098da" data-chrome="transparent" data-tweet-limit="3" href="https://twitter.com/wavesplatform"
-								class="twitter-timeline">Tweets by @wavesplatform</a>
-							<script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
 -->
                             
-                        <div class="recent-news__tweets">
+                        <div class="WavesFeed1-cont">
+                            <div id="WavesFeed1"></div>
+                        </div>
+<!--						</div>-->
+						<div class="recent-news__tweets">
 							<a data-dnt="true" data-theme="light" data-link-color="#0098da" data-chrome="transparent" data-tweet-limit="3" href="https://twitter.com/wavesplatform"
 								class="twitter-timeline">Tweets by @wavesplatform</a>
 							<script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 						</div>
-					</div>
-<!--
+                </div>
+<!--					</div>-->
 					<div class="button-subscribe">
 						<div class="button-subscribe__line"></div>
 						<a href="#subscribe-modal" data-i18n="subscribe-to-news" class="button-subscribe__button btn modal-trigger"></a>
 						<div class="button-subscribe__line"></div>
 					</div>
--->
 				</div>
 			</div>
 			<div id="partners" class="partners">
@@ -863,6 +861,12 @@
 		<script src="assets/scripts/app.min.js"></script>
         <script src="assets/scripts/FeedEK.js"></script>
         <script>
+            $('#WavesFeed1').FeedEk({
+                FeedUrl:'https://medium.com/feed/@wavesplatform',
+                MaxCount : 4,
+                DescCharacterLimit:0
+            });
+            
             $('#WavesFeed2').FeedEk({
                 FeedUrl:'http://coremedia.info/index.php/waves-news?format=feed',
                 MaxCount : 1,

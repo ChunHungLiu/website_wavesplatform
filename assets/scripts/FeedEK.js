@@ -32,7 +32,7 @@
                     data.query.results.rss = [data.query.results.rss];
                 }
                 $.each(data.query.results.rss, function (e, itm) {
-                    s += '<li><div class="itemTitle"><a href="' + itm.channel.item.link + '" target="' + def.TitleLinkTarget + '" >' + itm.channel.item.title + '</a></div>';
+                    s += '<li><div class="itemTitle"><a href="' + itm.channel.item.link + '" target="' + def.TitleLinkTarget + '" >' + itm.channel.item.title + '</a><div class=\"bio-divider-3\"></div></div>';
                     
                     if (def.ShowPubDate){
                         dt = new Date(itm.channel.item.pubDate);
