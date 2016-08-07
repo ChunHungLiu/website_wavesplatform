@@ -8494,7 +8494,9 @@ footer.page-footer h4 {
     text-align: center;
     color: #000;
     color: #555; /* custom */
-    font-size: 6rem
+    font-size: 6rem;
+    margin-bottom: 0px;
+    
 }
 
 .team .section-title__light {
@@ -9886,7 +9888,7 @@ nav ul li a {
 
 
 @media only screen and (max-width: 1024px) {
-    .stay-tuned { padding-bottom: 2rem;  }
+    
 }
 
 .footer-title {
@@ -9899,12 +9901,12 @@ nav ul li a {
     pointer-events: none;
     z-index: -999;
     text-align: center;
-    padding: .5rem;
+/*    padding: .5rem;*/
 }
 
 .swipe-img img {
     width: 30%;
-    opacity: .2;
+    opacity: .3;
     z-index: -999;
 }
 
@@ -9914,14 +9916,15 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 1024px) { 
-    .swipe-img img { width: 55%;  } 
-    .WavesNews { flex-direction: column; }
-    .feedEkList li  { width: 100%; }
-    .medium-feed-image { width: 75%; } 
+    .swipe-img { width: 65%; margin: 0 auto;  }
+    .swipe-img img { width: 75%;  }
+    .stay-tuned { padding-bottom: 2rem;  }
+    .recent-news__tweets { margin-bottom: 2rem; }
 }
 
 @media only screen and (max-width: 600px) { 
-    .swipe-img img { width: 85%; } 
+    .swipe-img { width: 90%; } 
+    .swipe-img img { width: 90%; } 
     .partners .section-title { margin-bottom: 3rem; }
     .medium-feed-image { width: 100%; } 
     .features__text { padding-left: 1rem; padding-right: 1rem;}
