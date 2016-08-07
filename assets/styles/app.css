@@ -8401,11 +8401,11 @@ footer.page-footer h4 {
     width: 100%;
 }
 
-.feedEkList { 
+#WavesFeed1 .feedEkList { 
     width: 200% !important;
 }
 
-.feedEkList li  {
+#WavesFeed1 .feedEkList li  {
     width: 50%;
     display: inline-block;
 }
@@ -8438,6 +8438,10 @@ footer.page-footer h4 {
     line-height: 1.2
 }
 */
+
+#news {
+    height: auto;
+}
 
 .recent-news .button-subscribe {
     display: -webkit-box;
