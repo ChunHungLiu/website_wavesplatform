@@ -8161,7 +8161,7 @@ footer.page-footer h4 {
 .platform {
     min-height: 100vh;
 /*    background: url(../../images/details.png) no-repeat 50%*/
-    background: url(../../images/doodle2.svg) center 20% fixed;
+    background: url(../../images/doodle2.min.svg) center 20% fixed;
 }
 
 .platform .container {
@@ -9925,7 +9925,7 @@ nav ul li a {
     .partners .section-title { margin-bottom: 3rem; }
     .medium-feed-image { width: 100%; } 
     .features__text { padding-left: 1rem; padding-right: 1rem;}
-    .platform { background: url(../../images/doodle3.svg) center 100% fixed; }
+    .platform { background: url(../../images/doodle3.min.svg) center 100% fixed; }
 }
 
 .lang-flag {
