@@ -8161,7 +8161,7 @@ footer.page-footer h4 {
 .platform {
     min-height: 100vh;
 /*    background: url(../../images/details.png) no-repeat 50%*/
-    background: url(../../images/doodle2.svg) center 20% fixed;
+    background: url(../../images/doodle2.min.svg) center 20% fixed;
 }
 
 .platform .container {
