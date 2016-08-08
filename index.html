@@ -1,681 +1,690 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Wavesplatform - Blockchain for the people</title>
-		<meta name="description" content="">
-		<meta name="keywords" content="">
-        
-        <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="images/manifest.json">
-        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#0096DC">
-        <meta name="theme-color" content="#ffffff">
-        
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-		<link href="assets/styles/app.css?t=1469265358402" rel="stylesheet">
-        <link href="assets/styles/FeedEK.css" rel="stylesheet">
-<!--        <script src="https://use.typekit.net/yhp6ylu.js"></script>-->
-<!--
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wavesplatform - Blockchain for the people</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/manifest.json">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#0096DC">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/styles/app.css?t=1469265358402" rel="stylesheet">
+    <link href="assets/styles/FeedEK.css" rel="stylesheet">
+    <!--        <script src="https://use.typekit.net/yhp6ylu.js"></script>-->
+    <!--
 		<script>
 			try{Typekit.load({async:!0})}catch(e){}
 		</script>
 -->
-	</head>
+</head>
 
-	<body class="page">
-		<header class="header navbar-fixed">
-			<nav>
-				<div class="nav-wrapper container">
-					<a href="#" data-activates="nav-mobile" class="button-collapse">
-						<i class="fa fa-bars"></i>
-					</a>
-					<a href="/" class="logo">
-						<img src="images/waves-logo.svg" alt="Waves" />
-					</a>
-					<ul class="menu-top hide-on-med-and-down">
-						<li>
-							<a href="#intro" data-i18n="section-intro"></a>
-						</li>
-						<li>
-							<a href="#platform" data-i18n="section-platform"></a>
-						</li>
-						<li>
-							<a href="#features" data-i18n="section-features"></a>
-						</li>
-						<li>
-							<a href="#news" data-i18n="section-news"></a>
-						</li>
+<body class="page">
+    <header class="header navbar-fixed">
+        <nav>
+            <div class="nav-wrapper container">
+                <a href="#" data-activates="nav-mobile" class="button-collapse">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="/" class="logo">
+                    <img src="images/waves-logo.svg" alt="Waves" />
+                </a>
+                <ul class="menu-top hide-on-med-and-down">
+                    <li>
+                        <a href="#intro" data-i18n="section-intro"></a>
+                    </li>
+                    <li>
+                        <a href="#platform" data-i18n="section-platform"></a>
+                    </li>
+                    <li>
+                        <a href="#features" data-i18n="section-features"></a>
+                    </li>
+                    <li>
+                        <a href="#news" data-i18n="section-news"></a>
+                    </li>
+                    <li>
+                        <a href="#partners" data-i18n="section-partners"></a>
+                    </li>
+                    <li>
+                        <a href="#team" data-i18n="section-team"></a>
+                    </li>
+                    <li>
+                        <a href="#stay-tuned" data-i18n="section-stay-tuned"></a>
+                    </li>
+                </ul>
+                <ul class="menu-socials hide-on-med-and-down">
+                    <li>
+                        <a href="https://www.facebook.com/wavesplatform" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/wavesplatform" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.reddit.com/r/Wavesplatform/" target="_blank">
+                            <i class="fa fa-reddit-alien"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://wavesplatform.slack.com/" target="_blank">
+                            <i class="fa fa-slack"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div id="nav-mobile" class="side-nav">
+                    <a href="/" class="mobile-logo">
+                        <img src="images/waves-logo.svg" alt="Waves" />
+                    </a>
+                    <ul>
                         <li>
-							<a href="#partners" data-i18n="section-partners"></a>
-						</li>
-						<li>
-							<a href="#team" data-i18n="section-team"></a>
-						</li>
-						<li>
-							<a href="#stay-tuned" data-i18n="section-stay-tuned"></a>
-						</li>
-					</ul>
-					<ul class="menu-socials hide-on-med-and-down">
-						<li>
-							<a href="https://www.facebook.com/wavesplatform" target="_blank">
-								<i class="fa fa-facebook"></i>
-							</a>
-						</li>
+                            <a href="#intro" data-i18n="section-intro"></a>
+                        </li>
                         <li>
-							<a href="https://twitter.com/wavesplatform" target="_blank">
-								<i class="fa fa-twitter"></i>
-							</a>
-						</li>
+                            <a href="#platform" data-i18n="section-platform"></a>
+                        </li>
                         <li>
-							<a href="https://www.reddit.com/r/Wavesplatform/" target="_blank">
-								<i class="fa fa-reddit-alien"></i>
-							</a>
-						</li>
-						<li>
-							<a href="http://wavesplatform.slack.com/" target="_blank">
-								<i class="fa fa-slack"></i>
-							</a>
-						</li>
-					</ul>
-					<div id="nav-mobile" class="side-nav">
-						<a href="/" class="mobile-logo">
-							<img src="images/waves-logo.svg" alt="Waves" />
-						</a>
-						<ul>
-							<li>
-								<a href="#intro" data-i18n="section-intro"></a>
-							</li>
-							<li>
-								<a href="#platform" data-i18n="section-platform"></a>
-							</li>
-							<li>
-								<a href="#features" data-i18n="section-features"></a>
-							</li>
-							<li>
-								<a href="#news" data-i18n="section-news"></a>
-							</li>
-							<li>
-								<a href="#partners" data-i18n="section-partners"></a>
-							</li>
-                            <li>
-								<a href="#team" data-i18n="section-team"></a>
-							</li>
-							<li>
-								<a href="#stay-tuned" data-i18n="section-stay-tuned"></a>
-							</li>
-						</ul>
-					</div>
-					<div class="lang-switcher">
-						<a href="#" data-activates="lang-switcher" class="lang-switcher__button dropdown-button">
-							<img src="images/flag-en.svg" class="lang-switcher__img" alt="" role="presentation" />
-							<i class="fa fa-caret-down"></i>
-						</a>
-						<ul id="lang-switcher" class="dropdown-content">
-							<li>
-								<a href="#" data-lang="en" class="active">
-									<img src="images/flag-en.svg" class="lang-flag" />
-								</a>
-							</li>
-                            <li>
-                            	<a href="#" data-lang="ru">
-									<img src="images/flag-ru.svg" class="lang-flag" />
-								</a>
-							</li>
-							<li>
-								<a href="#" data-lang="ch">
-									<img src="images/flag-chi.svg" class="lang-flag" />
-								</a>
-							</li>
-							<li>
-								<a href="#" data-lang="de">
-									<img src="images/flag-de.svg" class="lang-flag" />
-								</a>
-							</li>
-                            <li>
-								<a href="#" data-lang="es" class="active">
-									<img src="images/flag-spa.svg" class="lang-flag" />
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</header>
-		<main class="content">
-			<div id="intro" class="banner">
-				<div class="container">
-					<img src="images/logo.svg" alt="Waves" class="banner__logo" title="" />
-					<h1 data-i18n="banner-title" class="banner__title"></h1>
-					<p data-i18n="banner-desc" class="banner__desc"></p>
-					<div class="banner-watch-video">
-						<div class="banner-watch-video__line"></div>
-						<a href="https://www.youtube.com/embed/0Np-58p3OZQ" class="banner-watch-video__inner fancybox fancybox.iframe">
-							<span data-i18n="watch" class="banner-watch-video__word"></span>
-							<span class="banner-watch-video__icon"></span>
-							<span data-i18n="video" class="banner-watch-video__word"></span>
-						</a>
-						<div class="banner-watch-video__line"></div>
-					</div>
-					<div class="banner-downloads">
-						<div data-i18n="download-now" class="banner-downloads__title"></div>
-						<div class="banner-downloads__links">
-							<a href="https://chrome.google.com/webstore/detail/wavesliteapp/kfmcaklajknfekomaflnhkjjkcjabogm" class="banner-downloads__link" target="_blank">
-								<div class="banner-downloads__link-icon">
-									<img src="images/logo-google.png" alt="" />
-								</div>
-								<div class="banner-downloads__text">
-									<div data-i18n="download-from" class="banner-downloads__link-hint"></div>
-									<div class="banner-downloads__link-title">Chrome Store</div>
-								</div>
-							</a>
-							<a href="https://github.com/wavesplatform/WavesGUI/releases" class="banner-downloads__link" target="_blank">
-								<div class="banner-downloads__link-icon">
-									<img src="images/logo-github.png" alt="" />
-								</div>
-								<div class="banner-downloads__text">
-									<div data-i18n="download-from" class="banner-downloads__link-hint"></div>
-									<div class="banner-downloads__link-title">GitHub Source</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="banner-interview">
-						<div class="banner-interview__img">
-							<img class="interview_icon_img" src="images/interview_icon.svg" alt="" />
-						</div>
-						<div class="banner-interview__text">
-							<div data-i18n="banner-interview-quote" class="banner-interview__quote"></div>
-							<a href="https://www.youtube.com/embed/FXo49HfQxu4" data-i18n="banner-watch-interview" class="banner-interview__link btn fancybox fancybox.iframe"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="platform" class="platform">
-				<div class="container">
-					<h1 data-i18n="platform-title" class="section-title"></h1>
-					<div class="platform__inner">
-						<div class="platform__cards">
-							<div class="platform-card platform-card--card-1 card">
-								<div class="card-content">
-									<img src="images/icon/ico_1.svg" alt="" class="platform-card__img" role="presentation" />
-									<div data-i18n="platform-card-1-title" class="platform-card__title"></div>
-									<div data-i18n="platform-card-1-content" class="platform-card__desc"></div>
-								</div>
-							</div>
-							<div class="platform-card platform-card--card-2 card">
-								<div class="card-content">
-									<img src="images/icon/ico_2.svg" alt="" class="platform-card__img" role="presentation" />
-									<div data-i18n="platform-card-2-title" class="platform-card__title"></div>
-									<div data-i18n="platform-card-2-content" class="platform-card__desc"></div>
-								</div>
-							</div>
-							<div class="platform-card platform-card--card-3 card">
-								<div class="card-content">
-									<img src="images/icon/ico_3.svg" alt="" class="platform-card__img" role="presentation" />
-									<div data-i18n="platform-card-3-title" class="platform-card__title"></div>
-									<div data-i18n="platform-card-3-content" class="platform-card__desc"></div>
-								</div>
-							</div>
-							<div class="platform-card platform-card--card-4 card">
-								<div class="card-content">
-									<img src="images/icon/ico_5b.svg" alt="" class="platform-card__img" role="presentation" />
-									<div data-i18n="platform-card-4-title" class="platform-card__title"></div>
-									<div data-i18n="platform-card-4-content" class="platform-card__desc"></div>
-								</div>
-							</div>
-							<div class="platform-card platform-card--card-5 card">
-								<div class="card-content">
-									<img src="images/icon/ico_4c.svg" alt="" class="platform-card__img" role="presentation" />
-									<div data-i18n="platform-card-5-title" class="platform-card__title"></div>
-									<div data-i18n="platform-card-5-content" class="platform-card__desc"></div>
-								</div>
-							</div>
-							<div class="platform-card platform-card--card-6 card">
-								<div class="card-content">
-									<img src="images/icon/ico_6.svg" alt="" class="platform-card__img" role="presentation" />
-									<div data-i18n="platform-card-6-title" class="platform-card__title"></div>
-									<div data-i18n="platform-card-6-content" class="platform-card__desc"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="features" class="features">
-				<div class="container">
-					<h1 data-i18n="features-title" class="section-title"></h1>
-					<p data-i18n="features-desc" class="features__text"></p>
-					
-<!--					<h3 data-i18n="features-subtitle" class="section-subtitle"></h3>-->
-					<p data-i18n="features-text" class="features__text"></p>
-					<div class="features__cards">
-						<div class="features-card">
-							<div class="features-card__img">
-								<svg><use xlink:href="images/icon.svg#icon_features_5"></use></svg>
-							</div>
-							<div data-i18n="features-card-1" class="features-card__title"></div>
-						</div>
-						<div class="features-card">
-							<div class="features-card__img">
-								<svg><use xlink:href="images/icon.svg#icon_features_2"></use></svg>
-							</div>
-							<div data-i18n="features-card-2" class="features-card__title"></div>
-						</div>
-						<div class="features-card">
-							<div class="features-card__img">
-								<svg><use xlink:href="images/icon.svg#icon_features_3"></use></svg>
-							</div>
-							<div data-i18n="features-card-3" class="features-card__title"></div>
-						</div>
-						<div class="features-card">
-							<div class="features-card__img">
-								<svg><use xlink:href="images/icon.svg#icon_features_1"></use></svg>
-							</div>
-							<div data-i18n="features-card-4" class="features-card__title"></div>
-						</div>
-						<div class="features-card">
-							<div class="features-card__img">
-								<svg><use xlink:href="images/icon.svg#icon_features_4"></use></svg>
-							</div>
-							<div data-i18n="features-card-5" class="features-card__title"></div>
-						</div>
-					</div>
-                    <div class="stay-tuned">
-						<div data-i18n="download-client" class="stay-tuned__title"></div>
-						<a href="https://chrome.google.com/webstore/detail/wavesliteapp/kfmcaklajknfekomaflnhkjjkcjabogm" class="stay-tuned__link" target="_blank">
-							<img class='dl-but' src="images/footer-chrome.svg" alt="" />
-						</a>
-						<a href="https://github.com/wavesplatform/WavesGUI/releases" class="stay-tuned__link" target="_blank">
-							<img class='dl-but' src="images/footer-github.svg" alt="" />
-						</a>
-					</div>
-				</div>
-			</div>
-			<div id="news" class="recent-news">
-				<div class="container">
-                    <h1 data-i18n="news-title" class="section-title"></h1>
-                    <div class="WavesNews">
-
-                        <div class="WavesFeed1-cont">
-                            <div id="WavesFeed1"></div>
+                            <a href="#features" data-i18n="section-features"></a>
+                        </li>
+                        <li>
+                            <a href="#news" data-i18n="section-news"></a>
+                        </li>
+                        <li>
+                            <a href="#partners" data-i18n="section-partners"></a>
+                        </li>
+                        <li>
+                            <a href="#team" data-i18n="section-team"></a>
+                        </li>
+                        <li>
+                            <a href="#stay-tuned" data-i18n="section-stay-tuned"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lang-switcher">
+                    <a href="#" data-activates="lang-switcher" class="lang-switcher__button dropdown-button">
+                        <img src="images/flag-en.svg" class="lang-switcher__img" alt="" role="presentation" />
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul id="lang-switcher" class="dropdown-content">
+                        <li>
+                            <a href="#" data-lang="en" class="active">
+                                <img src="images/flag-en.svg" class="lang-flag" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-lang="ru">
+                                <img src="images/flag-ru.svg" class="lang-flag" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-lang="ch">
+                                <img src="images/flag-chi.svg" class="lang-flag" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-lang="de">
+                                <img src="images/flag-de.svg" class="lang-flag" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-lang="es" class="active">
+                                <img src="images/flag-spa.svg" class="lang-flag" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <div id="intro" class="banner">
+            <div class="container">
+                <img src="images/logo.svg" alt="Waves" class="banner__logo" title="" />
+                <h1 data-i18n="banner-title" class="banner__title"></h1>
+                <p data-i18n="banner-desc" class="banner__desc"></p>
+                <div class="banner-watch-video">
+                    <div class="banner-watch-video__line"></div>
+                    <a href="https://www.youtube.com/embed/0Np-58p3OZQ" class="banner-watch-video__inner fancybox fancybox.iframe">
+                        <span data-i18n="watch" class="banner-watch-video__word"></span>
+                        <span class="banner-watch-video__icon"></span>
+                        <span data-i18n="video" class="banner-watch-video__word"></span>
+                    </a>
+                    <div class="banner-watch-video__line"></div>
+                </div>
+                <div class="banner-downloads">
+                    <div data-i18n="download-now" class="banner-downloads__title"></div>
+                    <div class="banner-downloads__links">
+                        <a href="https://chrome.google.com/webstore/detail/wavesliteapp/kfmcaklajknfekomaflnhkjjkcjabogm" class="banner-downloads__link" target="_blank">
+                            <div class="banner-downloads__link-icon">
+                                <img src="images/logo-google.png" alt="" />
+                            </div>
+                            <div class="banner-downloads__text">
+                                <div data-i18n="download-from" class="banner-downloads__link-hint"></div>
+                                <div class="banner-downloads__link-title">Chrome Store</div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/wavesplatform/WavesGUI/releases" class="banner-downloads__link" target="_blank">
+                            <div class="banner-downloads__link-icon">
+                                <img src="images/logo-github.png" alt="" />
+                            </div>
+                            <div class="banner-downloads__text">
+                                <div data-i18n="download-from" class="banner-downloads__link-hint"></div>
+                                <div class="banner-downloads__link-title">GitHub Source</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="banner-interview">
+                    <div class="banner-interview__img">
+                        <img class="interview_icon_img" src="images/interview_icon.svg" alt="" />
+                    </div>
+                    <div class="banner-interview__text">
+                        <div data-i18n="banner-interview-quote" class="banner-interview__quote"></div>
+                        <a href="https://www.youtube.com/embed/FXo49HfQxu4" data-i18n="banner-watch-interview" class="banner-interview__link btn fancybox fancybox.iframe"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="platform" class="platform">
+            <div class="container">
+                <h1 data-i18n="platform-title" class="section-title"></h1>
+                <div class="platform__inner">
+                    <div class="platform__cards">
+                        <div class="platform-card platform-card--card-1 card">
+                            <div class="card-content">
+                                <img src="images/icon/ico_1.svg" alt="" class="platform-card__img" role="presentation" />
+                                <div data-i18n="platform-card-1-title" class="platform-card__title"></div>
+                                <div data-i18n="platform-card-1-content" class="platform-card__desc"></div>
+                            </div>
                         </div>
-						<div class="recent-news__tweets">
-							<a data-dnt="true" data-theme="light" data-link-color="#0098da" data-chrome="transparent" data-tweet-limit="3" href="https://twitter.com/wavesplatform"
-								class="twitter-timeline">Tweets by @wavesplatform</a>
-							<script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
+                        <div class="platform-card platform-card--card-2 card">
+                            <div class="card-content">
+                                <img src="images/icon/ico_2.svg" alt="" class="platform-card__img" role="presentation" />
+                                <div data-i18n="platform-card-2-title" class="platform-card__title"></div>
+                                <div data-i18n="platform-card-2-content" class="platform-card__desc"></div>
+                            </div>
+                        </div>
+                        <div class="platform-card platform-card--card-3 card">
+                            <div class="card-content">
+                                <img src="images/icon/ico_3.svg" alt="" class="platform-card__img" role="presentation" />
+                                <div data-i18n="platform-card-3-title" class="platform-card__title"></div>
+                                <div data-i18n="platform-card-3-content" class="platform-card__desc"></div>
+                            </div>
+                        </div>
+                        <div class="platform-card platform-card--card-4 card">
+                            <div class="card-content">
+                                <img src="images/icon/ico_5b.svg" alt="" class="platform-card__img" role="presentation" />
+                                <div data-i18n="platform-card-4-title" class="platform-card__title"></div>
+                                <div data-i18n="platform-card-4-content" class="platform-card__desc"></div>
+                            </div>
+                        </div>
+                        <div class="platform-card platform-card--card-5 card">
+                            <div class="card-content">
+                                <img src="images/icon/ico_4c.svg" alt="" class="platform-card__img" role="presentation" />
+                                <div data-i18n="platform-card-5-title" class="platform-card__title"></div>
+                                <div data-i18n="platform-card-5-content" class="platform-card__desc"></div>
+                            </div>
+                        </div>
+                        <div class="platform-card platform-card--card-6 card">
+                            <div class="card-content">
+                                <img src="images/icon/ico_6.svg" alt="" class="platform-card__img" role="presentation" />
+                                <div data-i18n="platform-card-6-title" class="platform-card__title"></div>
+                                <div data-i18n="platform-card-6-content" class="platform-card__desc"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-					<div class="button-subscribe">
-						<div class="button-subscribe__line"></div>
-						<a href="#subscribe-modal" data-i18n="subscribe-to-news" class="button-subscribe__button btn modal-trigger"></a>
-						<div class="button-subscribe__line"></div>
-					</div>
-				</div>
-			</div>
-			<div id="partners" class="partners">
-				<div class="container">
-					<h1 data-i18n="Waves-Partners" class="section-title"></h1>
-					<div class="partners__logos">
-						<div class="partners__item">
-							<a href="https://mycelium.com/" target="_blank" title="Mycelium" class="partners__link">
-								<img src="images/mycelium-logo.svg" alt="" class="partners__img" role="presentation" />
-							</a>
-						</div>
-						<div class="partners__item">
-							<a href="http://coremedia.info/" target="_blank" title="Core media" class="partners__link">
-								<img src="images/core-logo.svg" alt="" class="partners__img" role="presentation" />
-							</a>
-						</div>
-						<div class="partners__item">
-							<a href="http://forklog.net/" target="_blank" title="Forklog" class="partners__link">
-								<img src="images/partner-logo3.png" alt="" class="partners__img" role="presentation" />
-							</a>
-						</div>
-						<div class="partners__item">
-							<a href="http://cryptocurrencymagazine.com/" target="_blank" title="CCM" class="partners__link">
-								<img src="images/partner-logo4.png" alt="" class="partners__img" role="presentation" />
-							</a>
-						</div>
-						<div class="partners__item">
-							<a href="http://bitscan.com/" target="_blank" title="BitScan" class="partners__link">
-								<img src="images/partner-logo5.png" alt="" class="partners__img" role="presentation" />
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="team" class="team">
-				<div class="container">
-					<h1 data-i18n="team-title" class="section-title"></h1>
-				</div>
-                <div class="swipe-img">
-                    <img src="images/swipe_gesture5.svg" class="swipe-img" alt="swipe left or right" />
+            </div>
+        </div>
+        <div id="features" class="features">
+            <div class="container">
+                <h1 data-i18n="features-title" class="section-title"></h1>
+                <p data-i18n="features-desc" class="features__text"></p>
+
+                <!--					<h3 data-i18n="features-subtitle" class="section-subtitle"></h3>-->
+                <p data-i18n="features-text" class="features__text"></p>
+                <div class="features__cards">
+                    <div class="features-card">
+                        <div class="features-card__img">
+                            <svg>
+                                <use xlink:href="images/icon.svg#icon_features_5"></use>
+                            </svg>
+                        </div>
+                        <div data-i18n="features-card-1" class="features-card__title"></div>
+                    </div>
+                    <div class="features-card">
+                        <div class="features-card__img">
+                            <svg>
+                                <use xlink:href="images/icon.svg#icon_features_2"></use>
+                            </svg>
+                        </div>
+                        <div data-i18n="features-card-2" class="features-card__title"></div>
+                    </div>
+                    <div class="features-card">
+                        <div class="features-card__img">
+                            <svg>
+                                <use xlink:href="images/icon.svg#icon_features_3"></use>
+                            </svg>
+                        </div>
+                        <div data-i18n="features-card-3" class="features-card__title"></div>
+                    </div>
+                    <div class="features-card">
+                        <div class="features-card__img">
+                            <svg>
+                                <use xlink:href="images/icon.svg#icon_features_1"></use>
+                            </svg>
+                        </div>
+                        <div data-i18n="features-card-4" class="features-card__title"></div>
+                    </div>
+                    <div class="features-card">
+                        <div class="features-card__img">
+                            <svg>
+                                <use xlink:href="images/icon.svg#icon_features_4"></use>
+                            </svg>
+                        </div>
+                        <div data-i18n="features-card-5" class="features-card__title"></div>
+                    </div>
                 </div>
-				<div class="team__carousel">
-					<div class="swiper-wrapper">
-                        <div data-target="team-member-modal-1" class="team__slide swiper-slide modal-trigger">
-							<div class="team__slide__img">
-								<img src="images/faces/sasha-ivanov2.jpg" />
-							</div>
-							<div data-i18n="team-sasha-ivanov" class="team__slide__name"></div>
-							<div data-i18n="team-sasha-ivanov-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-								<a href="https://twitter.com/sasha35625" target="_blank" class="team__slide__icon fa fa-twitter"></a>
-								<a href="https://www.linkedin.com/in/sasha35625" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-reddit"></a>-->
-								<a href="https://wavesplatform.slack.com/team/sasha" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-						<div data-target="team-member-modal-2" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/tobias_schwarz_c.jpg" />
-							<div data-i18n="team-tobias-schwarz" class="team__slide__name"></div>
-							<div data-i18n="team-tobias-schwarz-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-								<a href="https://twitter.com/ToschDev" target="_blank" class="team__slide__icon fa fa-twitter"></a>
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-								<a href="https://www.linkedin.com/in/tobias-schwarz-45645511a" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
-								<a href="https://wavesplatform.slack.com/team/tosch" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-						<div data-target="team-member-modal-3" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/guy_brandon_c.jpg" />
-							<div data-i18n="team-guy-brandon" class="team__slide__name"></div>
-							<div data-i18n="team-guy-brandon-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-reddit"></a>-->
-								<a href="https://wavesplatform.slack.com/team/cassius" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-						<div data-target="team-member-modal-4" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/ivan_shcheglov_c.jpg" />
-							<div data-i18n="team-ivan-shcheglov" class="team__slide__name"></div>
-							<div data-i18n="team-ivan-shcheglov-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-								<a href="https://uk.linkedin.com/in/ivan-shcheglov-b725953" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-slack"></a>-->
-							</div>
-						</div>
-						<div data-target="team-member-modal-5" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/karl_karlsson_e.jpg " />
-							<div data-i18n="team-karl-karlsson" class="team__slide__name"></div>
-							<div data-i18n="team-karl-karlsson-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-								<a href="https://twitter.com/KarlKarlsson_" target="_blank" class="team__slide__icon fa fa-twitter"></a>
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-								<a href="mailto:karlkarlsson@gmx.ch" target="_blank" class="team__slide__icon fa fa-envelope"></a>
-								<a href="https://wavesplatform.slack.com/team/karlkarlsson" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-                        <div data-target="team-member-modal-6" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/allwelder_c.jpg" />
-							<div data-i18n="team-allwelder" class="team__slide__name"></div>
-							<div data-i18n="team-allwelder-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-								<a href="https://twitter.com/HiBlockchain" target="_blank" class="team__slide__icon fa fa-twitter"></a>
-								<a href="mailto:hiblockchain@gmail.com" target="_blank" class="team__slide__icon fa fa-envelope"></a>
-								<a href="https://www.reddit.com/user/allwelder/" target="_blank" class="team__slide__icon fa fa-reddit"></a>
-								<a href="https://wavesplatform.slack.com/team/allwelder" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-                        <div data-target="team-member-modal-7" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/mx.jpg" />
-							<div data-i18n="team-mx" class="team__slide__name"></div>
-							<div data-i18n="team-mx-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-								<a href="https://twitter.com/coremedia_info" target="_blank" class="team__slide__icon fa fa-twitter"></a>
-								<a href="https://www.facebook.com/coremedia.info/" target="_blank" class="team__slide__icon fa fa-facebook"></a>
-								<a href="mailto:contact@coremedia.info" target="_blank" class="team__slide__icon fa fa-envelope"></a>
-								<a href="https://wavesplatform.slack.com/team/mx" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-                        <div data-target="team-member-modal-8" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/carlos.jpg" />
-							<div data-i18n="team-carlos" class="team__slide__name"></div>
-							<div data-i18n="team-carlos-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-								<a href="https://twitter.com/EtherCoins" target="_blank" class="team__slide__icon fa fa-twitter"></a>
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-								<a href="mailto:carlos.ssu@gmail.com" target="_blank" class="team__slide__icon fa fa-envelope"></a>
-								<a href="https://wavesplatform.slack.com/team/waves.eth" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-                        <div data-target="team-member-modal-12" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/yura2.jpg" />
-							<div data-i18n="team-yura" class="team__slide__name"></div>
-							<div data-i18n="team-yura-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-reddit"></a>-->
-								<a href="https://wavesplatform.slack.com/team/gagarin55" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-                        <div data-target="team-member-modal-9" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/alex2.jpg" />
-							<div data-i18n="team-alex" class="team__slide__name"></div>
-							<div data-i18n="team-alex-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-								<a href="https://twitter.com/alexey_kiselev" target="_blank" class="team__slide__icon fa fa-twitter"></a>
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-								<a href="https://www.linkedin.com/in/alexey-kiselev-71b0445" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
-								<a href="https://wavesplatform.slack.com/team/alexeykiselev" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-                        <div data-target="team-member-modal-10" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/bez.jpg" />
-							<div data-i18n="team-bez" class="team__slide__name"></div>
-							<div data-i18n="team-bez-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-								<a href="https://twitter.com/rvelcoro" target="_blank" class="team__slide__icon fa fa-twitter"></a>
-								<a href="mailto:rideon@wavesplatform.com" target="_blank" class="team__slide__icon fa fa-envelope"></a>
-								<a href="https://www.reddit.com/user/bezV/" target="_blank" class="team__slide__icon fa fa-reddit"></a>
-								<a href="https://wavesplatform.slack.com/team/wavesplatform" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-                        <div data-target="team-member-modal-11" class="team__slide swiper-slide modal-trigger">
-							<img src="images/faces/bere.jpg" />
-							<div data-i18n="team-bere" class="team__slide__name"></div>
-							<div data-i18n="team-bere-role" class="team__slide__role"></div>
-							<div class="team__slide__icons">
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
-<!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
-								<a href="https://ua.linkedin.com/in/sergeyishchenko" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
-								<a href="https://wavesplatform.slack.com/team/beregovoy68" target="_blank" class="team__slide__icon fa fa-slack"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="team-member-modal modal" id="team-member-modal-1">
-				<div class="modal-content">
-					<h4 data-i18n="team-sasha-ivanov" class="team-member-modal__name modal-header"></h4>
-					<p data-i18n="team-sasha-ivanov-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-			<div class="team-member-modal modal" id="team-member-modal-2">
-				<div class="modal-content">
-					<h4 data-i18n="team-tobias-schwarz" class="team-member-modal__name modal-header"></h4>
-					<p data-i18n="team-tobias-schwarz-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-			<div class="team-member-modal modal" id="team-member-modal-3">
-				<div class="modal-content">
-					<h4 data-i18n="team-guy-brandon" class="team-member-modal__name modal-header"></h4>
-					<p data-i18n="team-guy-brandon-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-			<div class="team-member-modal modal" id="team-member-modal-4">
-				<div class="modal-content">
-					<h4 data-i18n="team-ivan-shcheglov" class="team-member-modal__name modal-header"></h4>
-					<p data-i18n="team-ivan-shcheglov-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-			<div class="team-member-modal modal" id="team-member-modal-5">
-				<div class="modal-content">
-					<h4 data-i18n="team-karl-karlsson" class="team-member-modal__name modal-header"></h4>
-					<p data-i18n="team-karl-karlsson-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-            <div class="team-member-modal modal" id="team-member-modal-6">
-				<div class="modal-content">
-					<h4 data-i18n="team-allwelder" class="team-member-modal__name modal-header "></h4>
-					<p data-i18n="team-allwelder-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-            <div class="team-member-modal modal" id="team-member-modal-7">
-				<div class="modal-content">
-					<h4 data-i18n="team-mx" class="team-member-modal__name modal-header "></h4>
-					<p data-i18n="team-mx-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-            <div class="team-member-modal modal" id="team-member-modal-8">
-				<div class="modal-content">
-					<h4 data-i18n="team-carlos" class="team-member-modal__name modal-header "></h4>
-					<p data-i18n="team-carlos-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-            <div class="team-member-modal modal" id="team-member-modal-9">
-				<div class="modal-content">
-					<h4 data-i18n="team-alex" class="team-member-modal__name modal-header "></h4>
-					<p data-i18n="team-alex-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-            <div class="team-member-modal modal" id="team-member-modal-10">
-				<div class="modal-content">
-					<h4 data-i18n="team-bez" class="team-member-modal__name modal-header "></h4>
-					<p data-i18n="team-bez-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-            <div class="team-member-modal modal" id="team-member-modal-11">
-				<div class="modal-content">
-					<h4 data-i18n="team-bere" class="team-member-modal__name modal-header "></h4>
-					<p data-i18n="team-bere-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-            <div class="team-member-modal modal" id="team-member-modal-12">
-				<div class="modal-content">
-					<h4 data-i18n="team-yura" class="team-member-modal__name modal-header "></h4>
-					<p data-i18n="team-yura-about" class="team-member-modal__about"></p>
-				</div>
-			</div>
-            
-			<div id="talents" class="talents">
-				<div class="container">
-					<h1 data-i18n="talents-title" class="section-title__light"></h1>
-                    <div class='diwide'></div>
-					<div data-i18n="talents-desc" class="talents__text"></div>
-<!--
+                <div class="stay-tuned">
+                    <div data-i18n="download-client" class="stay-tuned__title"></div>
+                    <a href="https://chrome.google.com/webstore/detail/wavesliteapp/kfmcaklajknfekomaflnhkjjkcjabogm" class="stay-tuned__link" target="_blank">
+                        <img class='dl-but' src="images/footer-chrome.svg" alt="" />
+                    </a>
+                    <a href="https://github.com/wavesplatform/WavesGUI/releases" class="stay-tuned__link" target="_blank">
+                        <img class='dl-but' src="images/footer-github.svg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="news" class="recent-news">
+            <div class="container">
+                <h1 data-i18n="news-title" class="section-title"></h1>
+                <div class="WavesNews">
+
+                    <div class="WavesFeed1-cont">
+                        <div id="WavesFeed1"></div>
+                    </div>
+                    <div class="recent-news__tweets">
+                        <a data-dnt="true" data-theme="light" data-link-color="#0098da" data-chrome="transparent" data-tweet-limit="3" href="https://twitter.com/wavesplatform" class="twitter-timeline">Tweets by @wavesplatform</a>
+                        <script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                <div class="button-subscribe">
+                    <div class="button-subscribe__line"></div>
+                    <a href="#subscribe-modal" data-i18n="subscribe-to-news" class="button-subscribe__button btn modal-trigger"></a>
+                    <div class="button-subscribe__line"></div>
+                </div>
+            </div>
+        </div>
+        <div id="partners" class="partners">
+            <div class="container">
+                <h1 data-i18n="Waves-Partners" class="section-title"></h1>
+                <div class="partners__logos">
+                    <div class="partners__item">
+                        <a href="https://mycelium.com/" target="_blank" title="Mycelium" class="partners__link">
+                            <img src="images/mycelium-logo.svg" alt="" class="partners__img" role="presentation" />
+                        </a>
+                    </div>
+                    <div class="partners__item">
+                        <a href="http://coremedia.info/" target="_blank" title="Core media" class="partners__link">
+                            <img src="images/core-logo.svg" alt="" class="partners__img" role="presentation" />
+                        </a>
+                    </div>
+                    <div class="partners__item">
+                        <a href="http://forklog.net/" target="_blank" title="Forklog" class="partners__link">
+                            <img src="images/partner-logo3.png" alt="" class="partners__img" role="presentation" />
+                        </a>
+                    </div>
+                    <div class="partners__item">
+                        <a href="http://cryptocurrencymagazine.com/" target="_blank" title="CCM" class="partners__link">
+                            <img src="images/partner-logo4.png" alt="" class="partners__img" role="presentation" />
+                        </a>
+                    </div>
+                    <div class="partners__item">
+                        <a href="http://bitscan.com/" target="_blank" title="BitScan" class="partners__link">
+                            <img src="images/partner-logo5.png" alt="" class="partners__img" role="presentation" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="team" class="team">
+            <div class="container">
+                <h1 data-i18n="team-title" class="section-title"></h1>
+            </div>
+            <div class="swipe-img">
+                <img src="images/swipe_gesture5.svg" class="swipe-img" alt="swipe left or right" />
+            </div>
+            <div class="team__carousel">
+                <div class="swiper-wrapper">
+                    <div data-target="team-member-modal-1" class="team__slide swiper-slide modal-trigger">
+                        <div class="team__slide__img">
+                            <img src="images/faces/sasha-ivanov2.jpg" />
+                        </div>
+                        <div data-i18n="team-sasha-ivanov" class="team__slide__name"></div>
+                        <div data-i18n="team-sasha-ivanov-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <a href="https://twitter.com/sasha35625" target="_blank" class="team__slide__icon fa fa-twitter"></a>
+                            <a href="https://www.linkedin.com/in/sasha35625" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-reddit"></a>-->
+                            <a href="https://wavesplatform.slack.com/team/sasha" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-2" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/tobias_schwarz_c.jpg" />
+                        <div data-i18n="team-tobias-schwarz" class="team__slide__name"></div>
+                        <div data-i18n="team-tobias-schwarz-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <a href="https://twitter.com/ToschDev" target="_blank" class="team__slide__icon fa fa-twitter"></a>
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+                            <a href="https://www.linkedin.com/in/tobias-schwarz-45645511a" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
+                            <a href="https://wavesplatform.slack.com/team/tosch" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-3" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/guy_brandon_c.jpg" />
+                        <div data-i18n="team-guy-brandon" class="team__slide__name"></div>
+                        <div data-i18n="team-guy-brandon-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-reddit"></a>-->
+                            <a href="https://wavesplatform.slack.com/team/cassius" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-4" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/ivan_shcheglov_c.jpg" />
+                        <div data-i18n="team-ivan-shcheglov" class="team__slide__name"></div>
+                        <div data-i18n="team-ivan-shcheglov-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+                            <a href="https://uk.linkedin.com/in/ivan-shcheglov-b725953" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-slack"></a>-->
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-5" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/karl_karlsson_e.jpg " />
+                        <div data-i18n="team-karl-karlsson" class="team__slide__name"></div>
+                        <div data-i18n="team-karl-karlsson-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <a href="https://twitter.com/KarlKarlsson_" target="_blank" class="team__slide__icon fa fa-twitter"></a>
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+                            <a href="mailto:karlkarlsson@gmx.ch" target="_blank" class="team__slide__icon fa fa-envelope"></a>
+                            <a href="https://wavesplatform.slack.com/team/karlkarlsson" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-6" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/allwelder_c.jpg" />
+                        <div data-i18n="team-allwelder" class="team__slide__name"></div>
+                        <div data-i18n="team-allwelder-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <a href="https://twitter.com/HiBlockchain" target="_blank" class="team__slide__icon fa fa-twitter"></a>
+                            <a href="mailto:hiblockchain@gmail.com" target="_blank" class="team__slide__icon fa fa-envelope"></a>
+                            <a href="https://www.reddit.com/user/allwelder/" target="_blank" class="team__slide__icon fa fa-reddit"></a>
+                            <a href="https://wavesplatform.slack.com/team/allwelder" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-7" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/mx.jpg" />
+                        <div data-i18n="team-mx" class="team__slide__name"></div>
+                        <div data-i18n="team-mx-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <a href="https://twitter.com/coremedia_info" target="_blank" class="team__slide__icon fa fa-twitter"></a>
+                            <a href="https://www.facebook.com/coremedia.info/" target="_blank" class="team__slide__icon fa fa-facebook"></a>
+                            <a href="mailto:contact@coremedia.info" target="_blank" class="team__slide__icon fa fa-envelope"></a>
+                            <a href="https://wavesplatform.slack.com/team/mx" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-8" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/carlos.jpg" />
+                        <div data-i18n="team-carlos" class="team__slide__name"></div>
+                        <div data-i18n="team-carlos-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <a href="https://twitter.com/EtherCoins" target="_blank" class="team__slide__icon fa fa-twitter"></a>
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+                            <a href="mailto:carlos.ssu@gmail.com" target="_blank" class="team__slide__icon fa fa-envelope"></a>
+                            <a href="https://wavesplatform.slack.com/team/waves.eth" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-12" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/yura2.jpg" />
+                        <div data-i18n="team-yura" class="team__slide__name"></div>
+                        <div data-i18n="team-yura-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-reddit"></a>-->
+                            <a href="https://wavesplatform.slack.com/team/gagarin55" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-9" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/alex2.jpg" />
+                        <div data-i18n="team-alex" class="team__slide__name"></div>
+                        <div data-i18n="team-alex-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <a href="https://twitter.com/alexey_kiselev" target="_blank" class="team__slide__icon fa fa-twitter"></a>
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+                            <a href="https://www.linkedin.com/in/alexey-kiselev-71b0445" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
+                            <a href="https://wavesplatform.slack.com/team/alexeykiselev" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-10" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/bez.jpg" />
+                        <div data-i18n="team-bez" class="team__slide__name"></div>
+                        <div data-i18n="team-bez-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <a href="https://twitter.com/rvelcoro" target="_blank" class="team__slide__icon fa fa-twitter"></a>
+                            <a href="mailto:rideon@wavesplatform.com" target="_blank" class="team__slide__icon fa fa-envelope"></a>
+                            <a href="https://www.reddit.com/user/bezV/" target="_blank" class="team__slide__icon fa fa-reddit"></a>
+                            <a href="https://wavesplatform.slack.com/team/wavesplatform" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                    <div data-target="team-member-modal-11" class="team__slide swiper-slide modal-trigger">
+                        <img src="images/faces/bere.jpg" />
+                        <div data-i18n="team-bere" class="team__slide__name"></div>
+                        <div data-i18n="team-bere-role" class="team__slide__role"></div>
+                        <div class="team__slide__icons">
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-twitter"></a>-->
+                            <!--								<a href="#" target="_blank" class="team__slide__icon fa fa-facebook"></a>-->
+                            <a href="https://ua.linkedin.com/in/sergeyishchenko" target="_blank" class="team__slide__icon fa fa-linkedin"></a>
+                            <a href="https://wavesplatform.slack.com/team/beregovoy68" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-1">
+            <div class="modal-content">
+                <h4 data-i18n="team-sasha-ivanov" class="team-member-modal__name modal-header"></h4>
+                <p data-i18n="team-sasha-ivanov-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-2">
+            <div class="modal-content">
+                <h4 data-i18n="team-tobias-schwarz" class="team-member-modal__name modal-header"></h4>
+                <p data-i18n="team-tobias-schwarz-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-3">
+            <div class="modal-content">
+                <h4 data-i18n="team-guy-brandon" class="team-member-modal__name modal-header"></h4>
+                <p data-i18n="team-guy-brandon-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-4">
+            <div class="modal-content">
+                <h4 data-i18n="team-ivan-shcheglov" class="team-member-modal__name modal-header"></h4>
+                <p data-i18n="team-ivan-shcheglov-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-5">
+            <div class="modal-content">
+                <h4 data-i18n="team-karl-karlsson" class="team-member-modal__name modal-header"></h4>
+                <p data-i18n="team-karl-karlsson-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-6">
+            <div class="modal-content">
+                <h4 data-i18n="team-allwelder" class="team-member-modal__name modal-header "></h4>
+                <p data-i18n="team-allwelder-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-7">
+            <div class="modal-content">
+                <h4 data-i18n="team-mx" class="team-member-modal__name modal-header "></h4>
+                <p data-i18n="team-mx-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-8">
+            <div class="modal-content">
+                <h4 data-i18n="team-carlos" class="team-member-modal__name modal-header "></h4>
+                <p data-i18n="team-carlos-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-9">
+            <div class="modal-content">
+                <h4 data-i18n="team-alex" class="team-member-modal__name modal-header "></h4>
+                <p data-i18n="team-alex-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-10">
+            <div class="modal-content">
+                <h4 data-i18n="team-bez" class="team-member-modal__name modal-header "></h4>
+                <p data-i18n="team-bez-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-11">
+            <div class="modal-content">
+                <h4 data-i18n="team-bere" class="team-member-modal__name modal-header "></h4>
+                <p data-i18n="team-bere-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+        <div class="team-member-modal modal" id="team-member-modal-12">
+            <div class="modal-content">
+                <h4 data-i18n="team-yura" class="team-member-modal__name modal-header "></h4>
+                <p data-i18n="team-yura-about" class="team-member-modal__about"></p>
+            </div>
+        </div>
+
+        <div id="talents" class="talents">
+            <div class="container">
+                <h1 data-i18n="talents-title" class="section-title__light"></h1>
+                <div class='diwide'></div>
+                <div data-i18n="talents-desc" class="talents__text"></div>
+                <!--
 					<a href="#join-modal" data-i18n="join-to" class="talents__button modal-trigger">
 						<span class="talents__button__company-name">WavesTeam</span>
 					</a>
 -->
-                    <a href="mailto:rideon@wavesplatform.com" data-i18n="join-to" class="talents__button modal-trigger">
-						<span class="talents__button__company-name">WavesTeam</span>
-					</a>
-				</div>
-			</div>
-		</main>
-		<footer id="stay-tuned" class="footer page-footer">
-			<div class="container">
-				<div class="stay-tuned">
-					<div data-i18n="Stay tuned" class="stay-tuned__title"></div>
-					<a href="https://chrome.google.com/webstore/detail/wavesliteapp/kfmcaklajknfekomaflnhkjjkcjabogm" class="stay-tuned__link" target="_blank">
-						<img class='dl-but' src="images/footer-chrome.svg" alt="" />
-					</a>
-					<a href="https://github.com/wavesplatform/WavesGUI/releases" class="stay-tuned__link" target="_blank">
-						<img class='dl-but' src="images/footer-github.svg" alt="" />
-					</a>
-				</div>
-				<div class="footer__blocks">
-					<div class="row">
-						<div class="col l6 m12">
-							<div class="row">
-								<div class="footer__block col l6 m6 s12">
-									<ul class="footer__links">
-										<li class="footer__links__item">
-											<a href="http://wavesexplorer.com/" target="_blank" data-i18n="explorer" class="footer__links__link"></a>
-										</li>
-                                        <li class="footer__links__item">
-											<a href="http://testnet.wavesexplorer.com/" target="_blank" data-i18n="testnetexplorer" class="footer__links__link"></a>
-										</li>
-                                        <li class="footer__links__item">
-											<a href="http://testnet.waveswallet.io/" target="_blank" data-i18n="testnet" class="footer__links__link"></a>
-										</li>
-										<li class="footer__links__item">
-											<a href="https://wavesplatform.com/whitepaper_v0.pdf" target="_blank" data-i18n="download-whitepaper" class="footer__links__link"></a>
-										</li>
-									</ul>
-								</div>
-								<div class="footer__block col l6 m6 s12">
-									<div class="footer__socials">
-										<h4 data-i18n="Social" class="footer__socials__title"></h4>
-										<ul class="footer__socials__list">
-											<li class="footer__socials__item">
-												<a href="https://twitter.com/wavesplatform" target="_blank" class="footer__socials__link">
-													<i class="footer__socials__icon fa fa-twitter"></i>
-													<span class="footer__socials__name">Twitter</span>
-												</a>
-											</li>
-											<li class="footer__socials__item">
-												<a href="https://www.facebook.com/wavesplatform" target="_blank" class="footer__socials__link">
-													<i class="footer__socials__icon fa fa-facebook"></i>
-													<span class="footer__socials__name">Facebook</span>
-												</a>
-											</li>
-											<li class="footer__socials__item">
-												<a href="https://www.reddit.com/r/Wavesplatform/" target="_blank" class="footer__socials__link">
-													<i class="footer__socials__icon fa fa-reddit"></i>
-													<span class="footer__socials__name">Reddit</span>
-												</a>
-											</li>
-											<li class="footer__socials__item">
-												<a href="http://wavesplatform.slack.com/" target="_blank" class="footer__socials__link">
-													<i class="footer__socials__icon fa fa-slack"></i>
-													<span class="footer__socials__name">Slack</span>
-												</a>
-											</li>
-											<li class="footer__socials__item">
-												<a href="https://blog.wavesplatform.com/" target="_blank" class="footer__socials__link">
-													<i class="footer__socials__icon fa fa-medium"></i>
-													<span class="footer__socials__name">MediumBlog</span>
-												</a>
-											</li>
-											<li class="footer__socials__item">
-												<a href="https://github.com/WAVESPLATFORM/" target="_blank" class="footer__socials__link">
-													<i class="footer__socials__icon fa fa-github"></i>
-													<span class="footer__socials__name">GitHub</span>
-												</a>
-											</li>
-                                            <li class="footer__socials__item">
-												<a href="https://telegram.me/wavesnews" target="_blank" class="footer__socials__link">
-													<i class="footer__socials__icon fa fa-send"></i>
-													<span class="footer__socials__name">Telegram</span>
-												</a>
-											</li>
-                                            <li class="footer__socials__item">
-												<a href="mailto:rideon@wavesplatform.com" target="_blank" class="footer__socials__link">
-													<i class="footer__socials__icon fa fa-envelope"></i>
-													<span class="footer__socials__name">E-mail</span>
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col l6 m12">
-							<div class="row">
-								<div class="footer__block col l6 m6 s12">
-<!--
+                <a href="mailto:rideon@wavesplatform.com" data-i18n="join-to" class="talents__button modal-trigger">
+                    <span class="talents__button__company-name">WavesTeam</span>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer id="stay-tuned" class="footer page-footer">
+        <div class="container">
+            <div class="stay-tuned">
+                <div data-i18n="Stay tuned" class="stay-tuned__title"></div>
+                <a href="https://chrome.google.com/webstore/detail/wavesliteapp/kfmcaklajknfekomaflnhkjjkcjabogm" class="stay-tuned__link" target="_blank">
+                    <img class='dl-but' src="images/footer-chrome.svg" alt="" />
+                </a>
+                <a href="https://github.com/wavesplatform/WavesGUI/releases" class="stay-tuned__link" target="_blank">
+                    <img class='dl-but' src="images/footer-github.svg" alt="" />
+                </a>
+            </div>
+            <div class="footer__blocks">
+                <div class="row">
+                    <div class="col l6 m12">
+                        <div class="row">
+                            <div class="footer__block col l6 m6 s12">
+                                <ul class="footer__links">
+                                    <li class="footer__links__item">
+                                        <a href="http://wavesexplorer.com/" target="_blank" data-i18n="explorer" class="footer__links__link"></a>
+                                    </li>
+                                    <li class="footer__links__item">
+                                        <a href="http://testnet.wavesexplorer.com/" target="_blank" data-i18n="testnetexplorer" class="footer__links__link"></a>
+                                    </li>
+                                    <li class="footer__links__item">
+                                        <a href="http://testnet.waveswallet.io/" target="_blank" data-i18n="testnet" class="footer__links__link"></a>
+                                    </li>
+                                    <li class="footer__links__item">
+                                        <a href="https://wavesplatform.com/whitepaper_v0.pdf" target="_blank" data-i18n="download-whitepaper" class="footer__links__link"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__block col l6 m6 s12">
+                                <div class="footer__socials">
+                                    <h4 data-i18n="Social" class="footer__socials__title"></h4>
+                                    <ul class="footer__socials__list">
+                                        <li class="footer__socials__item">
+                                            <a href="https://twitter.com/wavesplatform" target="_blank" class="footer__socials__link">
+                                                <i class="footer__socials__icon fa fa-twitter"></i>
+                                                <span class="footer__socials__name">Twitter</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials__item">
+                                            <a href="https://www.facebook.com/wavesplatform" target="_blank" class="footer__socials__link">
+                                                <i class="footer__socials__icon fa fa-facebook"></i>
+                                                <span class="footer__socials__name">Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials__item">
+                                            <a href="https://www.reddit.com/r/Wavesplatform/" target="_blank" class="footer__socials__link">
+                                                <i class="footer__socials__icon fa fa-reddit"></i>
+                                                <span class="footer__socials__name">Reddit</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials__item">
+                                            <a href="http://wavesplatform.slack.com/" target="_blank" class="footer__socials__link">
+                                                <i class="footer__socials__icon fa fa-slack"></i>
+                                                <span class="footer__socials__name">Slack</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials__item">
+                                            <a href="https://blog.wavesplatform.com/" target="_blank" class="footer__socials__link">
+                                                <i class="footer__socials__icon fa fa-medium"></i>
+                                                <span class="footer__socials__name">MediumBlog</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials__item">
+                                            <a href="https://github.com/WAVESPLATFORM/" target="_blank" class="footer__socials__link">
+                                                <i class="footer__socials__icon fa fa-github"></i>
+                                                <span class="footer__socials__name">GitHub</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials__item">
+                                            <a href="https://telegram.me/wavesnews" target="_blank" class="footer__socials__link">
+                                                <i class="footer__socials__icon fa fa-send"></i>
+                                                <span class="footer__socials__name">Telegram</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials__item">
+                                            <a href="mailto:rideon@wavesplatform.com" target="_blank" class="footer__socials__link">
+                                                <i class="footer__socials__icon fa fa-envelope"></i>
+                                                <span class="footer__socials__name">E-mail</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l6 m12">
+                        <div class="row">
+                            <div class="footer__block col l6 m6 s12">
+                                <!--
 									<div class="footer__events">
 										<h4 data-i18n="events" class="footer__events__title"></h4>
 										<a href="#" class="footer__events__img">
@@ -686,151 +695,168 @@
 										<div data-i18n="footer-events-desc" class="footer__events__desc"></div>
 									</div>
 -->
-                                    <div class="footer__events">
-                                        <div id="WavesFeed2"></div>
-									</div>
-								</div>
-								<div class="footer__block col l6 m6 s12">
-									<div class="footer__commutity">
-										<h4 data-i18n="Waves Community" class="footer__commutity__title"></h4>
-										<ul class="footer__commutity__links">
-											<li class="footer__commutity__item">
-												<a href="#features" data-i18n="What is Waves?" class="footer__commutity__link"></a>
-											</li>
-											<li class="footer__commutity__item">
-												<a href="https://wavestalk.org/general-discussion/waves-faq/" target="_blank" data-i18n="Read our FAQ" class="footer__commutity__link"></a>
-											</li>
-										</ul>
-<!--										<h5 data-i18n="Source code on GitHub" class="footer__commutity__subtitle"></h5>-->
-										<ul class="footer__commutity__links">
-											<li class="footer__commutity__item">
-												<a href="https://blog.wavesplatform.com/" target="_blank" data-i18n="Read the Waves" class="footer__commutity__link"></a>
-											</li>
-											<li class="footer__commutity__item">
-												<a href="https://wavesplatform.com/whitepaper_v0.pdf" target="_blank" data-i18n="Documentation" class="footer__commutity__link"></a>
-											</li>
-											<li class="footer__commutity__item">
-												<a href="#" data-i18n="See latest data" class="footer__commutity__link footer__commutity__link--underline"></a>
-											</li>
-											<li class="footer__commutity__item">
-												<a href="#" data-i18n="Network Stats" class="footer__commutity__link"></a>
-											</li>
-											<li class="footer__commutity__item">
-												<a href="https://drive.google.com/file/d/0B_G15THf2d8INVNiZkFDU1VWb2s/view?pref=2&pli=1" target="_blank" data-i18n="Download our Logo assets" class="footer__commutity__link"></a>
-											</li>
-											<li class="footer__commutity__item">
-												<a href="mailto:rideon@wavesplatform.com" data-i18n="Want to write about us? Press inquiries" class="footer__commutity__link"></a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer__bottom-links">
-					<a href="https://github.com/WAVESPLATFORM/" target="_blank" class="footer__bottom-links__link">GitHub</a>&nbsp;&nbsp;&nbsp;
-					<a href="https://wavestalk.org/" target="_blank" class="footer__bottom-links__link">Forum</a>
-                    
-					<a href="#intro" class="footer__bottom-links__link footer__bottom-links__link--to-top scroll-link">
-						<i class="fa fa-angle-up"></i>
-						<span data-i18n="Back to top"></span>
-					</a>
-				</div>
-				<div class="footer__bottom-line">
-					<div data-i18n="Brought to you by" class="footer__bottom-line__by">
-						<a href="#" data-i18n="Waves Team"></a>
-					</div>
-					<div class="footer__bottom-line__links">
-						<a href="#" data-i18n="Terms" class="footer__bottom-line__link"></a>&nbsp;&nbsp;
-						<a href="#" data-i18n="License" class="footer__bottom-line__link"></a>&nbsp;&nbsp;
-						<a href="mailto:rideon@wavesplatform.com" data-i18n="Contact info" class="footer__bottom-line__link"></a>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<div id="subscribe-modal" class="modal">
-			<div class="modal-content">
-				<h4 data-i18n="subscribe-form-title"></h4>
-				<form action="/subscribe.php">
-					<div class="input-field">
-						<input id="subscribe-modal-name" type="text" class="validate" />
-						<label for="subscribe-modal-name" data-i18n="name"></label>
-					</div>
-					<div class="input-field">
-						<input id="subscribe-modal-email" type="text" class="validate" />
-						<label for="subscribe-modal-email" data-i18n="email"></label>
-					</div>
-					<div class="input-field center">
-						<button type="submit" data-i18n="submit" class="waves-effect waves-light btn"></button>
-					</div>
-				</form>
-			</div>
-		</div>
-		<div id="join-modal" class="modal">
-			<div class="modal-content">
-				<h4 data-i18n="join-form-title"></h4>
-				<form action="/subscribe.php">
-					<div class="input-field">
-						<input id="join-modal-name" type="text" class="validate" />
-						<label for="join-modal-name" data-i18n="name"></label>
-					</div>
-					<div class="input-field">
-						<input id="join-modal-email" type="text" class="validate" />
-						<label for="join-modal-email" data-i18n="email"></label>
-					</div>
-					<div class="input-field center">
-						<button type="submit" data-i18n="join" class="waves-effect waves-light btn"></button>
-					</div>
-				</form>
-			</div>
-		</div>
-		<script src="assets/scripts/app.min.js"></script>
-        <script src="assets/scripts/FeedEK.js"></script>
-        <script>
-            $('#WavesFeed1').FeedEk({
-                FeedUrl:'https://medium.com/feed/@wavesplatform',
-                MaxCount : 4,
-                DescCharacterLimit:0
-            });
-            
-            $('#WavesFeed2').FeedEk({
-                FeedUrl:'http://coremedia.info/index.php/waves-news?format=feed',
-                MaxCount : 1,
-                DescCharacterLimit:290
-            });
-        </script>
-        <!-- Facebook Pixel Code -->
-        <script>
-            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+                                <div class="footer__events">
+                                    <div id="WavesFeed2"></div>
+                                </div>
+                            </div>
+                            <div class="footer__block col l6 m6 s12">
+                                <div class="footer__commutity">
+                                    <h4 data-i18n="Waves Community" class="footer__commutity__title"></h4>
+                                    <ul class="footer__commutity__links">
+                                        <li class="footer__commutity__item">
+                                            <a href="#features" data-i18n="What is Waves?" class="footer__commutity__link"></a>
+                                        </li>
+                                        <li class="footer__commutity__item">
+                                            <a href="https://wavestalk.org/general-discussion/waves-faq/" target="_blank" data-i18n="Read our FAQ" class="footer__commutity__link"></a>
+                                        </li>
+                                    </ul>
+                                    <!--										<h5 data-i18n="Source code on GitHub" class="footer__commutity__subtitle"></h5>-->
+                                    <ul class="footer__commutity__links">
+                                        <li class="footer__commutity__item">
+                                            <a href="https://blog.wavesplatform.com/" target="_blank" data-i18n="Read the Waves" class="footer__commutity__link"></a>
+                                        </li>
+                                        <li class="footer__commutity__item">
+                                            <a href="https://wavesplatform.com/whitepaper_v0.pdf" target="_blank" data-i18n="Documentation" class="footer__commutity__link"></a>
+                                        </li>
+                                        <li class="footer__commutity__item">
+                                            <a href="#" data-i18n="See latest data" class="footer__commutity__link footer__commutity__link--underline"></a>
+                                        </li>
+                                        <li class="footer__commutity__item">
+                                            <a href="#" data-i18n="Network Stats" class="footer__commutity__link"></a>
+                                        </li>
+                                        <li class="footer__commutity__item">
+                                            <a href="https://drive.google.com/file/d/0B_G15THf2d8INVNiZkFDU1VWb2s/view?pref=2&pli=1" target="_blank" data-i18n="Download our Logo assets" class="footer__commutity__link"></a>
+                                        </li>
+                                        <li class="footer__commutity__item">
+                                            <a href="mailto:rideon@wavesplatform.com" data-i18n="Want to write about us? Press inquiries" class="footer__commutity__link"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom-links">
+                <a href="https://github.com/WAVESPLATFORM/" target="_blank" class="footer__bottom-links__link">GitHub</a>&nbsp;&nbsp;&nbsp;
+                <a href="https://wavestalk.org/" target="_blank" class="footer__bottom-links__link">Forum</a>
 
-            fbq('init', '239372783081182');
-            fbq('track', "PageView");
-        </script>
-        <noscript>
-            <img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=239372783081182&ev=PageView&noscript=1"
-            />
-        </noscript>
-        <!-- End of Facebook Pixel Code -->   
-        <!-- VK Pixel Code -->
-            <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=vN0qTK9zBbsSOec8swAc4lahuJlF*e98U8Efa9FsqmQ0mHFUY1H4x9GmySlz*ryvnnjp1e0qR5OfqDjUw1tQ26VQGL1PqL4L2TFwcAc8zTkHYpIWKOwld59LdS91T0SYyXgITR*gBRMZoMLCp/TVKhanzkQ4i0SbXMOXR8ZkC6Q-';</script> 
-        <!-- End of VK Pixel Code -->    
-        <!-- Twitter universal website tag code -->
-        <script>
-            !function(e,n,u,a){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):
-            a.queue.push(arguments);},a.version='1',a.queue=[],t=n.createElement(u),
-            t.async=!0,t.src='//static.ads-twitter.com/uwt.js',s=n.getElementsByTagName(u)[0],
-            s.parentNode.insertBefore(t,s))}(window,document,'script');
-            // Insert Twitter Pixel ID and Standard Event data below
-            twq('init','nuq4k');
-            twq('track','PageView');
-        </script>
-        <!-- End Twitter universal website tag code -->
-	</body>
+                <a href="#intro" class="footer__bottom-links__link footer__bottom-links__link--to-top scroll-link">
+                    <i class="fa fa-angle-up"></i>
+                    <span data-i18n="Back to top"></span>
+                </a>
+            </div>
+            <div class="footer__bottom-line">
+                <div data-i18n="Brought to you by" class="footer__bottom-line__by">
+                    <a href="#" data-i18n="Waves Team"></a>
+                </div>
+                <div class="footer__bottom-line__links">
+                    <a href="#" data-i18n="Terms" class="footer__bottom-line__link"></a>&nbsp;&nbsp;
+                    <a href="#" data-i18n="License" class="footer__bottom-line__link"></a>&nbsp;&nbsp;
+                    <a href="mailto:rideon@wavesplatform.com" data-i18n="Contact info" class="footer__bottom-line__link"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="subscribe-modal" class="modal">
+        <div class="modal-content">
+            <h4 data-i18n="subscribe-form-title"></h4>
+            <form action="/subscribe.php">
+                <div class="input-field">
+                    <input id="subscribe-modal-name" type="text" class="validate" />
+                    <label for="subscribe-modal-name" data-i18n="name"></label>
+                </div>
+                <div class="input-field">
+                    <input id="subscribe-modal-email" type="text" class="validate" />
+                    <label for="subscribe-modal-email" data-i18n="email"></label>
+                </div>
+                <div class="input-field center">
+                    <button type="submit" data-i18n="submit" class="waves-effect waves-light btn"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="join-modal" class="modal">
+        <div class="modal-content">
+            <h4 data-i18n="join-form-title"></h4>
+            <form action="/subscribe.php">
+                <div class="input-field">
+                    <input id="join-modal-name" type="text" class="validate" />
+                    <label for="join-modal-name" data-i18n="name"></label>
+                </div>
+                <div class="input-field">
+                    <input id="join-modal-email" type="text" class="validate" />
+                    <label for="join-modal-email" data-i18n="email"></label>
+                </div>
+                <div class="input-field center">
+                    <button type="submit" data-i18n="join" class="waves-effect waves-light btn"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="assets/scripts/app.min.js"></script>
+    <script src="assets/scripts/FeedEK.js"></script>
+    <script>
+        $('#WavesFeed1').FeedEk({
+            FeedUrl: 'https://medium.com/feed/@wavesplatform',
+            MaxCount: 4,
+            DescCharacterLimit: 0
+        });
+
+        $('#WavesFeed2').FeedEk({
+            FeedUrl: 'http://coremedia.info/index.php/waves-news?format=feed',
+            MaxCount: 1,
+            DescCharacterLimit: 290
+        });
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '239372783081182');
+        fbq('track', "PageView");
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=239372783081182&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End of Facebook Pixel Code -->
+    <!-- VK Pixel Code -->
+    <script type="text/javascript">
+        (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=vN0qTK9zBbsSOec8swAc4lahuJlF*e98U8Efa9FsqmQ0mHFUY1H4x9GmySlz*ryvnnjp1e0qR5OfqDjUw1tQ26VQGL1PqL4L2TFwcAc8zTkHYpIWKOwld59LdS91T0SYyXgITR*gBRMZoMLCp/TVKhanzkQ4i0SbXMOXR8ZkC6Q-';
+    </script>
+    <!-- End of VK Pixel Code -->
+    <!-- Twitter universal website tag code -->
+    <script>
+        ! function(e, n, u, a) {
+            e.twq || (a = e.twq = function() {
+                    a.exe ? a.exe.apply(a, arguments) :
+                        a.queue.push(arguments);
+                }, a.version = '1', a.queue = [], t = n.createElement(u),
+                t.async = !0, t.src = '//static.ads-twitter.com/uwt.js', s = n.getElementsByTagName(u)[0],
+                s.parentNode.insertBefore(t, s))
+        }(window, document, 'script');
+        // Insert Twitter Pixel ID and Standard Event data below
+        twq('init', 'nuq4k');
+        twq('track', 'PageView');
+    </script>
+    <!-- End Twitter universal website tag code -->
+</body>
 
 </html>
