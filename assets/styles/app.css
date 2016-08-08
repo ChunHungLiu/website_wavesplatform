@@ -8527,18 +8527,9 @@ nav ul li a {
 .menu-socials {
     margin-right: 40px;
 }
-@media only screen and (max-width:1300px) {
-    .menu-socials li a {
-        font-size: 12px;
-    }
-    .menu-socials {
-        margin-right: 0px;
-    }
-}
-@media only screen and (max-width:1250px) {
-    .menu-socials {
-        display: none;
-    }
+.lang-flag {
+    width: 100%;
+    padding: .5rem;
 }
 .interview_icon_img {
     width: 200px;
@@ -8634,24 +8625,11 @@ nav ul li a {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-@media only screen and (max-width: 1024px) {
-    #features .stay-tuned {
-        margin-bottom: 5rem;
-    }
-    #features .stay-tuned__title {
-        text-align: center;
-    }
-}
 #talents h1 {
     font-size: 3rem;
 }
 .footer__commutity {
     text-align: right;
-}
-@media only screen and (max-width: 600px) {
-    .footer__commutity {
-        text-align: center;
-    }
 }
 #features {
     padding-bottom: 3rem;
@@ -8708,7 +8686,6 @@ nav ul li a {
     color: #0096DC;
     font-weight: 400;
 }
-@media only screen and (max-width: 1024px) {}
 .footer-title {
     font-weight: 600;
     font-size: 1.75rem;
@@ -8731,6 +8708,19 @@ nav ul li a {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+@media only screen and (max-width:1300px) {
+    .menu-socials li a {
+        font-size: 12px;
+    }
+    .menu-socials {
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width:1250px) {
+    .menu-socials {
+        display: none;
+    }
+}
 @media only screen and (max-width: 1024px) {
     .swipe-img {
         width: 65%;
@@ -8744,6 +8734,12 @@ nav ul li a {
     }
     .recent-news__tweets {
         margin-bottom: 2rem;
+    }
+    #features .stay-tuned {
+        margin-bottom: 5rem;
+    }
+    #features .stay-tuned__title {
+        text-align: center;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -8766,8 +8762,17 @@ nav ul li a {
     .platform {
         background: url(../../images/doodle3.min.svg) center 100% fixed;
     }
-}
-.lang-flag {
-    width: 100%;
-    padding: .5rem;
+    .container .section-title {
+        font-size: 2.75rem;
+    }
+    #features .container p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .recent-news .button-subscribe__button {
+        font-size: 1rem;
+    }
+    .footer__commutity {
+        text-align: center;
+    }
 }
