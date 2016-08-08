@@ -8515,7 +8515,7 @@ only screen and (min-device-pixel-ratio:1.5) {
     }
 }
 
-/* CUSTOM */
+/* ========== CUSTOM ========== */
 
 nav ul li a {
     font-weight: 200;
@@ -8566,21 +8566,6 @@ nav ul li a {
     -moz-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
     -o-filter: grayscale(0%);
-}
-@media only screen and (max-width:728px) {
-    .team__slide img {
-        -webkit-filter: grayscale(0%);
-        -moz-filter: grayscale(0%);
-        -ms-filter: grayscale(0%);
-        -o-filter: grayscale(0%);
-    }
-    .banner__logo {
-        width: 12rem;
-        margin-top: -2rem;
-    }
-    .banner__title {
-        margin-top: 2rem;
-    }
 }
 .section-title-part {
     display: inline;
@@ -8708,6 +8693,9 @@ nav ul li a {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+
+/* ========== CUSTOM MEDIA QUERIES ========== */
+
 @media only screen and (max-width:1300px) {
     .menu-socials li a {
         font-size: 12px;
@@ -8722,6 +8710,15 @@ nav ul li a {
     }
 }
 @media only screen and (max-width: 1024px) {
+    #features .stay-tuned {
+        margin-bottom: 1rem;
+    }
+    #features .stay-tuned__title {
+        text-align: center;
+    }
+    .recent-news__tweets {
+        margin-bottom: 2rem;
+    }
     .swipe-img {
         width: 65%;
         margin: 0 auto;
@@ -8732,45 +8729,63 @@ nav ul li a {
     .stay-tuned {
         padding-bottom: 2rem;
     }
-    .recent-news__tweets {
-        margin-bottom: 2rem;
+}
+@media only screen and (max-width:728px) {
+    .team__slide img {
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+        -o-filter: grayscale(0%);
     }
-    #features .stay-tuned {
-        margin-bottom: 5rem;
+    .banner__logo {
+        width: 12rem;
+        margin-top: -2rem;
     }
-    #features .stay-tuned__title {
-        text-align: center;
+    .banner__title {
+        margin-top: 2rem;
     }
 }
 @media only screen and (max-width: 600px) {
-    .swipe-img {
-        width: 90%;
+    .banner__title {
+        font-size: 2rem;
     }
-    .swipe-img img {
-        width: 90%;
-    }
-    .partners .section-title {
-        margin-bottom: 3rem;
-    }
-    .medium-feed-image {
-        width: 100%;
-    }
-    .features__text {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .platform {
-        background: url(../../images/doodle3.min.svg) center 100% fixed;
+    .banner__desc {
+        font-size: 1.4rem;
     }
     .container .section-title {
         font-size: 2.75rem;
+    }
+    .platform {
+        background: url(../../images/doodle3.min.svg) center 100% fixed;
     }
     #features .container p {
         font-size: 1.4rem;
         line-height: 2rem;
     }
+    .features__text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #features .stay-tuned {
+        padding-bottom: 0px;
+    }
+    #features .stay-tuned__title {
+        font-size: 2rem;
+    }
     .recent-news .button-subscribe__button {
         font-size: 1rem;
+    }
+    .medium-feed-image {
+        width: 100%;
+    }
+    .partners .section-title {
+        margin-bottom: 3rem;
+    }
+    .swipe-img {
+        width: 90%;
+    }
+    .swipe-img img {
+        width: 90%;
     }
     .footer__commutity {
         text-align: center;
