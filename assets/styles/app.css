@@ -8680,7 +8680,6 @@ nav ul li a {
     pointer-events: none;
     z-index: -999;
     text-align: center;
-    /*    padding: .5rem;*/
 }
 .swipe-img img {
     width: 30%;

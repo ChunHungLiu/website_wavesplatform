@@ -120,6 +120,7 @@
 	"team-yura-role": "<hr class=\"bio-divider-2\">Back-end Developer",
 	"team-yura-about": "<hr class=\"bio-divider\">Yuri (@gagarin55) is a developer with more than 15 years of experience in the field and proficient in a number of programming languages. He has been involved in the development of bank applications and financial projects, and is known for having collaborated with Scorex project code numerous times.",
 
+    "Stay tuned": "Stay Tuned",
 	"Waves Community": "<span class=\"footer-title\">Waves Community</span>",
 	"What is Waves?": "What is Waves?",
 	"Read our FAQ": "Read our FAQ",
@@ -141,5 +142,8 @@
 	"join-form-title": "Apply",
 	"name": "Name",
 	"email": "Email",
-	"submit": "Submit"
+	"submit": "Submit",
+    "footer-small-git": "Github",
+    "footer-small-forum": "Forum"
+    
 }

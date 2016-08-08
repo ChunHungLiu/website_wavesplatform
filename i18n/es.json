@@ -119,7 +119,8 @@
     "team-yura": "Yuri Petrov",
 	"team-yura-role": "<hr class=\"bio-divider-2\">Desarrollador back-end",
 	"team-yura-about": "<hr class=\"bio-divider\">Yuri (@gagarin68) es un programador con mas de 15 años de experiencia en su campo y experto en numerosos lenguajes informáticos. Ha estado implicado en el desarrollo de diversas aplicaciones bancarias y proyectos financieros, y es conocido por colaborar esporádicamente con el proyecto <span class=\"blue-hi\">Scorex</span>, en el que <span class=\"blue-hi\">WAVES</span> sienta sus bases.",
-
+    
+    "Stay tuned": "Lo Último",
 	"Waves Community": "<span class=\"footer-title\">Comunidad WAVES</span>",
 	"What is Waves?": "Que es WAVES?",
 	"Read our FAQ": "Lee nuestro FAQ",
@@ -128,8 +129,8 @@
 	"Documentation": "Documentacion",
 	"See latest data": "Ultimos datos",
 	"Network Stats": "Estado de la red",
-	"Download our Logo assets": "Descarga nuestro paquete de branding",
-	"Want to write about us? Press inquiries": "Quieres escribir sobre nosotros? Contacto para Prensa",
+	"Download our Logo assets": "Descarga del paquete de branding",
+	"Want to write about us? Press inquiries": "Contacto para Prensa",
 	"Back to top": "Vuelta al Inicio",
 	"Brought to you by": "Creado por el equipo de WAVES",
 	"Waves Team": "WAVES",
@@ -141,5 +142,7 @@
 	"join-form-title": "Apply",
 	"name": "Nombre",
 	"email": "Email",
-	"submit": "Enviar"
+	"submit": "Enviar",
+    "footer-small-git": "Github",
+    "footer-small-forum": "Foros"
 }
