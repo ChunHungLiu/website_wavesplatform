@@ -49,46 +49,6 @@
 .itemContent h3 {
     display: none;
 }
-@media only screen and (max-width: 1024px) {
-    .feedEkList {
-        width: 90%;
-        margin: 0 auto;
-        text-align: left;
-        list-style: none outside none;
-        padding: 0rem;
-    }
-    .footer__block .col .l6 .m6 .s12 {
-        height: auto;
-    }
-    .WavesNews {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .feedEkList li {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 790px) {
-    .recent-news__tweets {}
-    #WavesFeed1 .feedEkList li {
-        width: 100%;
-    }
-    .medium-feed-item {
-        text-align: center;
-    }
-    /*    .medium-feed-image { width: 75%; }*/
-}
-@media only screen and (max-width: 600px) {
-    .feedEkList {
-        width: 70%;
-        margin: 0 auto;
-        text-align: center;
-        list-style: none outside none;
-        padding: 0rem;
-    }
-}
 #WavesFeed1 {
     width: 49%;
     display: block;
@@ -134,4 +94,43 @@
 #WavesFeed1 .itemContent h2,
 .itemContent h3 {
     display: none;
+}
+@media only screen and (max-width: 1024px) {
+    .feedEkList {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+        list-style: none outside none;
+        padding: 0rem;
+    }
+    .footer__block .col .l6 .m6 .s12 {
+        height: auto;
+    }
+    .WavesNews {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .feedEkList li {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .recent-news__tweets {}
+    #WavesFeed1 .feedEkList li {
+        width: 100%;
+    }
+    .medium-feed-item {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .feedEkList {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        list-style: none outside none;
+        padding: 0rem;
+    }
 }
