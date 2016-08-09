@@ -6885,6 +6885,13 @@ footer.page-footer h4 {
     position: relative;
     padding-bottom: 20rem
 }
+.banner__logo {
+    width: 22rem;
+    margin-top: -2rem;
+}
+.banner__title {
+    margin-top: 1rem;
+}
 .banner__title {
     margin: 5rem 0 0;
     font-size: 3.9rem
@@ -6967,7 +6974,7 @@ footer.page-footer h4 {
     flex: 1 0 auto;
     height: 1px;
     opacity: .1;
-    background: #fff
+    background: #fff;
 }
 .banner-downloads {
     position: absolute;
