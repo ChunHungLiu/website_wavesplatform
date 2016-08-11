@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.18in" height="0.126665in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10829 7620"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:white;stroke-width:417.811}
+    .fil3 {fill:none}
+    .fil0 {fill:#00247D}
+    .fil2 {fill:red}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M802 0l9225 0c441,0 802,361 802,802l0 6016c0,442 -361,802 -802,802l-9225 0c-441,0 -802,-360 -802,-802l0 -6016c0,-441 361,-802 802,-802z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <rect class="fil0" x="284722" y="-27477" width="11834" height="8089"/>
+    <rect class="fil1" x="289229" y="-27937" width="2820" height="9009"/>
+    <rect class="fil1" transform="matrix(3.47905E-014 -1 1.31361 2.64845E-014 284722 -22023)" width="2820" height="9009"/>
+    <rect class="fil1" transform="matrix(-0.274156 -0.474851 1.24754 -0.720269 285406 -19519.3)" width="2820" height="9009"/>
+    <rect class="fil1" transform="matrix(0.274156 -0.474851 -1.24754 -0.720269 295871 -19519.3)" width="2820" height="9009"/>
+    <rect class="fil2" transform="matrix(0.107033 -0.185386 2.37438 1.37085 279793 -29490.3)" width="2820" height="9009"/>
+    <rect class="fil2" transform="matrix(-0.107033 -0.185386 -2.37438 1.37085 301484 -29490.3)" width="2820" height="9009"/>
+    <rect class="fil1" x="286650" y="-24843" width="7977" height="2820"/>
+    <rect class="fil2" transform="matrix(3.47905E-014 -0.5 1.31361 1.32423E-014 284722 -22728.1)" width="2820" height="9009"/>
+    <rect class="fil2" x="289933" y="-29350" width="1410" height="11834"/>
+    <rect class="fil1 str0" x="-1871" y="-1830" width="14884" height="11359"/>
+   </g>
+  </g>
+  <path class="fil3" d="M802 0l9225 0c441,0 802,361 802,802l0 6016c0,442 -361,802 -802,802l-9225 0c-441,0 -802,-360 -802,-802l0 -6016c0,-441 361,-802 802,-802z"/>
+  <circle class="fil2" cx="5414" cy="3810" r="1958"/>
+ </g>
+</svg>
