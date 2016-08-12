@@ -8,11 +8,11 @@
     <title>Wavesplatform - Blockchain for the people</title>
     <meta name="description" content="Official site">
     <meta name="keywords" content="">
-    
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/styles/app.css?t=1469265358402" rel="stylesheet">
     <link href="assets/styles/FeedEK.min.css" rel="stylesheet">
-    
+
     <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
@@ -113,37 +113,38 @@
                     <ul id="lang-switcher" class="dropdown-content">
                         <li>
                             <a href="#" data-lang="en" class="active">
-                                <img src="images/flag-en.svg" class="lang-flag" />
+                                <img src="images/flag-en.svg" class="lang-flag" alt="English" />
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" data-lang="ch">
+                                <img src="images/flag-chi.svg" class="lang-flag" alt="Chinese" />
                             </a>
                         </li>
                         <li>
                             <a href="#" data-lang="ru">
-                                <img src="images/flag-ru.svg" class="lang-flag" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" data-lang="ch">
-                                <img src="images/flag-chi.svg" class="lang-flag" />
+                                <img src="images/flag-ru.svg" class="lang-flag" alt="Russian" />
                             </a>
                         </li>
                         <li>
                             <a href="#" data-lang="de">
-                                <img src="images/flag-de.svg" class="lang-flag" />
+                                <img src="images/flag-de.svg" class="lang-flag" alt="German" />
                             </a>
                         </li>
                         <li>
-                            <a href="#" data-lang="es" class="active">
-                                <img src="images/flag-spa.svg" class="lang-flag" />
+                            <a href="#" data-lang="es">
+                                <img src="images/flag-spa.svg" class="lang-flag" alt="Spanish" />
                             </a>
                         </li>
                         <li>
-                            <a href="#" data-lang="jp" class="active">
-                                <img src="images/flag-jp.svg" class="lang-flag" />
+                            <a href="#" data-lang="jp">
+                                <img src="images/flag-jp.svg" class="lang-flag" alt="Japanese" />
                             </a>
                         </li>
                         <li>
-                            <a href="#" data-lang="fr" class="active">
-                                <img src="images/flag-fr.svg" class="lang-flag" />
+                            <a href="#" data-lang="fr">
+                                <img src="images/flag-fr.svg" class="lang-flag" alt="French" />
                             </a>
                         </li>
                     </ul>
@@ -776,26 +777,47 @@
     </div>
     <script src="assets/scripts/app.min.js"></script>
     <script src="assets/scripts/FeedEK.min.js"></script>
-    <script> $("#WavesFeed1").FeedEk({FeedUrl:"https://medium.com/feed/@wavesplatform",MaxCount:4,DescCharacterLimit:0}),$("#WavesFeed2").FeedEk({FeedUrl:"http://coremedia.info/index.php/waves-news?format=feed",MaxCount:1,DescCharacterLimit:290});
+    <script>
+        $("#WavesFeed1").FeedEk({
+            FeedUrl: "https://medium.com/feed/@wavesplatform",
+            MaxCount: 4,
+            DescCharacterLimit: 0
+        }), $("#WavesFeed2").FeedEk({
+            FeedUrl: "http://coremedia.info/index.php/waves-news?format=feed",
+            MaxCount: 1,
+            DescCharacterLimit: 290
+        });
     </script>
     <!-- PIXEL TAG CODES : Facebook Pixel Tag Code -->
     <script>
-    !function(a,b,c,d,e,f,g){a.fbq||(e=a.fbq=function(){e.callMethod?e.callMethod.apply(e,arguments):e.queue.push(arguments)},a._fbq||(a._fbq=e),e.push=e,e.loaded=!0,e.version="2.0",e.queue=[],f=b.createElement(c),f.async=!0,f.src=d,g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","239372783081182"),fbq("track","PageView");
+        ! function(a, b, c, d, e, f, g) {
+            a.fbq || (e = a.fbq = function() {
+                e.callMethod ? e.callMethod.apply(e, arguments) : e.queue.push(arguments)
+            }, a._fbq || (a._fbq = e), e.push = e, e.loaded = !0, e.version = "2.0", e.queue = [], f = b.createElement(c), f.async = !0, f.src = d, g = b.getElementsByTagName(c)[0], g.parentNode.insertBefore(f, g))
+        }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"), fbq("init", "239372783081182"), fbq("track", "PageView");
     </script>
     <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=239372783081182&ev=PageView&noscript=1" />
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=239372783081182&ev=PageView&noscript=1" />
     </noscript>
     <!-- VK Pixel Tag Code -->
     <script type="text/javascript">
-    (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=vN0qTK9zBbsSOec8swAc4lahuJlF*e98U8Efa9FsqmQ0mHFUY1H4x9GmySlz*ryvnnjp1e0qR5OfqDjUw1tQ26VQGL1PqL4L2TFwcAc8zTkHYpIWKOwld59LdS91T0SYyXgITR*gBRMZoMLCp/TVKhanzkQ4i0SbXMOXR8ZkC6Q-';
+        (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=vN0qTK9zBbsSOec8swAc4lahuJlF*e98U8Efa9FsqmQ0mHFUY1H4x9GmySlz*ryvnnjp1e0qR5OfqDjUw1tQ26VQGL1PqL4L2TFwcAc8zTkHYpIWKOwld59LdS91T0SYyXgITR*gBRMZoMLCp/TVKhanzkQ4i0SbXMOXR8ZkC6Q-';
     </script>
     <!-- Twitter Pixel Tag Code -->
     <script>
-    !function(a,b,c,d){a.twq||(d=a.twq=function(){d.exe?d.exe.apply(d,arguments):d.queue.push(arguments)},d.version="1",d.queue=[],t=b.createElement(c),t.async=!0,t.src="//static.ads-twitter.com/uwt.js",s=b.getElementsByTagName(c)[0],s.parentNode.insertBefore(t,s))}(window,document,"script"),twq("init","nuq4k"),twq("track","PageView");
+        ! function(a, b, c, d) {
+            a.twq || (d = a.twq = function() {
+                d.exe ? d.exe.apply(d, arguments) : d.queue.push(arguments)
+            }, d.version = "1", d.queue = [], t = b.createElement(c), t.async = !0, t.src = "//static.ads-twitter.com/uwt.js", s = b.getElementsByTagName(c)[0], s.parentNode.insertBefore(t, s))
+        }(window, document, "script"), twq("init", "nuq4k"), twq("track", "PageView");
     </script>
     <!-- GA Pixel Tag Code -->
     <script>
-    !function(a,b,c,d,e,f,g){a.GoogleAnalyticsObject=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date,f=b.createElement(c),g=b.getElementsByTagName(c)[0],f.async=1,f.src=d,g.parentNode.insertBefore(f,g)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-75283398-1","auto"),ga("send","pageview");
+        ! function(a, b, c, d, e, f, g) {
+            a.GoogleAnalyticsObject = e, a[e] = a[e] || function() {
+                (a[e].q = a[e].q || []).push(arguments)
+            }, a[e].l = 1 * new Date, f = b.createElement(c), g = b.getElementsByTagName(c)[0], f.async = 1, f.src = d, g.parentNode.insertBefore(f, g)
+        }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-75283398-1", "auto"), ga("send", "pageview");
     </script>
     <!-- End of PIXEL TAG CODES -->
 </body>
