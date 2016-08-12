@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eth and Cassius"
+			"Ima"
 		],
 		"last-updated": "2016-07-11",
-		"locale": "en"
+		"locale": "jp"
 	},
 
 	"section-intro": "イントロ",
@@ -62,7 +62,7 @@
 	"events": "イベント",
 
 
-    "news-title": "<span class=\"section-title__light\">最新の</span> Tweets",
+    "news-title": "<span class=\"section-title__light\">最新の</span> News",
 
 	"news-card-1-title": "WAVES Blockchain-powered Platform Announces Partnership with Mycelium and CORE Media",
 	"news-card-1-content": "Waves has partnered with one of the leading Bitcoin wallet providers Mycelium and CORE Media is pleased to announce that we are now an official partner of the Waves platform!",
