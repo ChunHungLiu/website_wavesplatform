@@ -6915,16 +6915,19 @@ footer.page-footer h4 {
     justify-content: space-between;
     -ms-flex-align: center;
     -webkit-box-align: center;
-    align-items: center
+    align-items: center;
+    align-content: center;
 }
 .banner-watch-video__inner {
-    width: 280px;
-    padding: 0 15px;
+    width: 330px;
+    padding: 0 -10px;
+    margin: 0 20px;
     text-align: center;
     color: #fff
 }
 .banner-watch-video__word {
-    font-size: 2rem
+    font-size: 2rem;
+    width: 100px;
 }
 .banner-watch-video__icon {
     display: block;
@@ -6932,7 +6935,7 @@ footer.page-footer h4 {
     height: 55px;
     position: relative;
     border: 3px solid #33b2d4;
-    border-radius: 100%
+    border-radius: 100%;
 }
 .banner-watch-video__icon:after {
     content: '';
@@ -6963,7 +6966,7 @@ footer.page-footer h4 {
     top: -28px;
     border-radius: 100%;
     -webkit-transition: all .2s;
-    transition: all .2s
+    transition: all .2s;
 }
 .banner-watch-video__icon:hover:before {
     opacity: .5
