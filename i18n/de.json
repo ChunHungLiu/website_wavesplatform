@@ -45,7 +45,7 @@
     "features-titleB": "Waves",
     "features-desc": "Traditionelle, zentralisierte Crowdfunding- und Handelsplattformen verlassen sich auf Drittparteien um zu funktionieren und opfern dabei Transparenz, steigern die eigenen Kosten und riskieren sogar Verluste und Unstimmigkeiten weil sie sich auf einzelne Bruchpunkt verlassen. Waves ist eine dezentralisierte Plattform die es jedem Nutzer erlaubt seine eigene, massgeschneiderte Anlage auszugeben, zu transferieren, zu tauschen und auf einer integrierten peer-to-peer Börse zu handeln. Die Anlagen können einen Anteil eines Crowdfunding-Projekts, eines finanziellen Instruments oder von jeglichem Gegenstand mit intrinsischem Wert darstellen.",
     "features-subtitle": "Waves Features",
-    "features-text": "Unser Lite Client erlaubt Nutzern alle Vorteile des Waves Ökosystems zu geniessen ohne dafür die komplette Blockchain herunterladen zu müssen. Dies eliminiert auch den Bedarf an Speicherplatz und beschleunigt die Applikationsentwicklung. Folgende Features werden im Lite Client enthalten sein:",
+    "features-text": "Unser Lite Client erlaubt Nutzern alle Vorteile des Waves Ökosystems zu geniessen ohne dafür die komplette Blockchain herunterladen zu müssen. Dies eliminiert auch den Bedarf an Speicherplatz und beschleunigt die Applikationsentwicklung. </br></br>Folgende Features werden im Lite Client enthalten sein:",
 
     "features-card-1": "Erhöhte Privatspähre",
     "features-card-2": "Finanzielle Analyseinstrumente",
@@ -63,15 +63,6 @@
 
 
     "news-title": "<span class=\"section-title__light\">Letzte</span> News",
-
-    "news-card-1-title": "Blockchainbetriebene Plattform WAVES kündigt Partnerschaft mit Mycelium und CORE Media an",
-    "news-card-1-content": "Waves startet Zusammenarbeit mit einem der führenden Bitcoin Wallet Anbieter Mycelium und CORE Media ist erfreut anzukündigen, dass wir nun ein offizieller Partner der Waves Platform sind!",
-    "news-card-2-title": "Blockchainbetriebene Plattform WAVES kündigt Partnerschaft an",
-    "news-card-2-content": "Waves startet Zusammenarbeit mit einem der führenden Bitcoin Wallet Anbieter Mycelium und CORE Media ist erfreut anzukündigen, dass wir nun ein offizieller Partner der Waves Platform sind!",
-    "news-card-3-title": "Blockchainbetriebene Plattform WAVES kündigt Partnerschaft mit Mycelium und CORE Media an",
-    "news-card-3-content": "Waves startet Zusammenarbeit mit einem der führenden Bitcoin Wallet Anbieter Mycelium und CORE Media ist erfreut anzukündigen, dass wir nun ein offizieller Partner der Waves Platform sind!",
-    "news-card-4-title": "Blockchainbetriebene Plattform WAVES kündigt Partnerschaft mit Mycelium und CORE Media an",
-    "news-card-4-content": "Waves startet Zusammenarbeit mit einem der führenden Bitcoin Wallet Anbieter Mycelium und CORE Media ist erfreut anzukündigen, dass wir nun ein offizieller Partner der Waves Platform sind!",
 
     "subscribe-to-news": "Melde dich an zu unserem <span class=\"button-subscribe__button__em\">NEWSLETTER</span>",
 
