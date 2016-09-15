@@ -291,19 +291,17 @@
                     <div class="partners__item">
                         <a href="http://bitscan.com/" target="_blank" title="BitScan" class="partners__link"> <img src="images/partner-logo5.png" alt="" class="partners__img" role="presentation" /> </a>
                     </div>
+                    <div class="partners__item">
+                        <a href="#" target="_blank" title="ToMM Apps" class="partners__link"> <img src="images/partner-logo6.png" alt="" class="partners__img" role="presentation" /> </a>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="team" class="team">
             <div class="container">
                 <h1 data-i18n="team-title" class="section-title"></h1> </div>
-            
             <div class="team__carousel">
-               
-<!--               <div class="swipe-img"> <img src="images/swipe_gesture5.svg" class="swipe-img" alt="swipe left or right" /> </div>-->
-               <img src="images/swipe-left.svg" class="swipe-img-symbols swipe-img-symbols-left" alt="swipe left or right" />
-               <img src="images/swipe-right.svg" class="swipe-img-symbols swipe-img-symbols-right" alt="swipe left or right" />
-               
+                <img src="images/swipe-left.svg" class="swipe-img-symbols swipe-img-symbols-left" alt="swipe left or right" /> <img src="images/swipe-right.svg" class="swipe-img-symbols swipe-img-symbols-right" alt="swipe left or right" />
                 <div class="swiper-wrapper">
                     <div class="team__slide swiper-slide">
                         <div data-target="team-member-modal-1" class="team__slide__img modal-trigger"> <img src="images/faces/sasha-ivanov6b.jpg" /> </div>
@@ -390,6 +388,7 @@
                         <div data-i18n="team-yura-role" class="team__slide__role"></div>
                         <div class="team__slide__icons">
                             <a href="https://wavesplatform.slack.com/team/gagarin55" target="_blank" class="team__slide__icon fa fa-slack"></a>
+                            <a href="https://twitter.com/cryptogagarin" target="_blank" class="team__slide__icon fa fa-twitter"></a>
                         </div>
                     </div>
                     <div class="team__slide swiper-slide">
@@ -706,6 +705,21 @@
         }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-75283398-1", "auto"), ga("send", "pageview");
     </script>
     <!-- End of PIXEL TAG CODES -->
+    <!-- Mailchimp Scripts -->
+    <script>
+        $(document).ready(function () {
+            $('#subscribe-modal form').submit(function () {
+                $.post("/subscribe-chimp.php", $('#subscribe-modal form').serialize()).done(function (data) {
+                    $('#subscribe-modal form #subscribe-modal-email').val();
+                    $(".lean-overlay").trigger("click");
+                    $("#ajaxmodal .modal-content h4").text(data);
+                    $(".ajaxmodalshow").click();
+                });
+                return false;
+            });
+        });
+    </script>
+    <!-- End of Mailchimp Scripts -->
 </body>
 
 </html>
