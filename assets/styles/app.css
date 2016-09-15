@@ -5089,6 +5089,7 @@ footer.page-footer h4 {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
+    -ms-flex-line-pack: center;
     align-content: center;
 }
 
@@ -6778,6 +6779,10 @@ nav ul li a {
     -moz-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
     -o-filter: grayscale(0%);
+}
+
+.partners__link img {
+    max-width: 160px;
 }
 
 .section-title-part {
