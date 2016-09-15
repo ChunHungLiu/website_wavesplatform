@@ -300,13 +300,7 @@
         <div id="team" class="team">
             <div class="container">
                 <h1 data-i18n="team-title" class="section-title"></h1> </div>
-            
             <div class="team__carousel">
-               
-<!--               <div class="swipe-img"> <img src="images/swipe_gesture5.svg" class="swipe-img" alt="swipe left or right" /> </div>-->
-               <img src="images/swipe-left.svg" class="swipe-img-symbols swipe-img-symbols-left" alt="swipe left or right" />
-               <img src="images/swipe-right.svg" class="swipe-img-symbols swipe-img-symbols-right" alt="swipe left or right" />
-               
                 <div class="swiper-wrapper">
                     <div class="team__slide swiper-slide">
                         <div data-target="team-member-modal-1" class="team__slide__img modal-trigger"> <img src="images/faces/sasha-ivanov6b.jpg" /> </div>
@@ -710,6 +704,21 @@
         }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-75283398-1", "auto"), ga("send", "pageview");
     </script>
     <!-- End of PIXEL TAG CODES -->
+    <!-- Mailchimp Scripts -->
+    <script>
+        $(document).ready(function () {
+            $('#subscribe-modal form').submit(function () {
+                $.post("/subscribe-chimp.php", $('#subscribe-modal form').serialize()).done(function (data) {
+                    $('#subscribe-modal form #subscribe-modal-email').val();
+                    $(".lean-overlay").trigger("click");
+                    $("#ajaxmodal .modal-content h4").text(data);
+                    $(".ajaxmodalshow").click();
+                });
+                return false;
+            });
+        });
+    </script>
+    <!-- End of Mailchimp Scripts -->
 </body>
 
 </html>
