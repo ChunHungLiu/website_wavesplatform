@@ -300,8 +300,7 @@
         <div id="team" class="team">
             <div class="container">
                 <h1 data-i18n="team-title" class="section-title"></h1> </div>
-            <div class="team__carousel">
-                <img src="images/swipe-left.svg" class="swipe-img-symbols swipe-img-symbols-left" alt="swipe left or right" /> <img src="images/swipe-right.svg" class="swipe-img-symbols swipe-img-symbols-right" alt="swipe left or right" />
+            <div class="team__carousel"> <img src="images/swipe-left.svg" class="swipe-img-symbols swipe-img-symbols-left" alt="swipe left or right" /> <img src="images/swipe-right.svg" class="swipe-img-symbols swipe-img-symbols-right" alt="swipe left or right" />
                 <div class="swiper-wrapper">
                     <div class="team__slide swiper-slide">
                         <div data-target="team-member-modal-1" class="team__slide__img modal-trigger"> <img src="images/faces/sasha-ivanov6b.jpg" /> </div>
@@ -629,13 +628,9 @@
     <div id="subscribe-modal" class="modal">
         <div class="modal-content">
             <h4 data-i18n="subscribe-form-title"></h4>
-            <form action="/subscribe.php">
+            <form action="/subscribe-chimp.php" method="POST">
                 <div class="input-field">
-                    <input id="subscribe-modal-name" type="text" class="validate" />
-                    <label for="subscribe-modal-name" data-i18n="name"></label>
-                </div>
-                <div class="input-field">
-                    <input id="subscribe-modal-email" type="text" class="validate" />
+                    <input id="subscribe-modal-email" type="email" class="validate" placeholder="Enter your email" required name="email" />
                     <label for="subscribe-modal-email" data-i18n="email"></label>
                 </div>
                 <div class="input-field center">
@@ -661,6 +656,10 @@
                 </div>
             </form>
         </div>
+    </div>
+    <div id="ajaxmodal" class="modal">
+        <div class="modal-content">
+            <h4 class="center"></h4> </div>
     </div>
     <script src="assets/scripts/app.min.js"></script>
     <script src="assets/scripts/FeedEK.min.js"></script>
